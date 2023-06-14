@@ -361,3 +361,6 @@
 - name: 'Steampipe Cloud'
   source: 'https://cloud.steampipe.io/user/<USER-NAME>/create/connection'
   accounts: ['316881668097']
+- name: 'unusd.cloud'
+  source: 'https://unusd-cloud-saas-prod-artifacts-spoke.s3.eu-west-1.amazonaws.com/spoke-role.yml'
+  accounts: ['398997493752']
