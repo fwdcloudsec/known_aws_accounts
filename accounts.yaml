@@ -365,7 +365,7 @@
   source: 'https://sslmate.com/help/reference/misc#aws_integration'
   accounts: ['056196542512']
 - name: 'k9 security'
-  source: 'https://k9security.io/samples/resource-access-audit.k9-dev.sample.xlsx'
+  source: 'https://www.k9security.io/docs/how-to-configure-k9-access/'
   accounts: ['826438284864', '139710491120']
 - name: 'Codeshield'
   source: 'https://codeshield-public-templates-production.s3.eu-central-1.amazonaws.com/aws_connect_codeshield.yml'
