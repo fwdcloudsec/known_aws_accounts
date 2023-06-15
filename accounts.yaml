@@ -364,3 +364,9 @@
 - name: 'SSLMate (Sandbox Site)'
   source: 'https://sslmate.com/help/reference/misc#aws_integration'
   accounts: ['056196542512']
+- name: 'Sysdig (US East)'
+  source: 'https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/#aws-account-ids'
+  accounts: ['761931097553']
+- name: 'Sysdig (US West/EU)'
+  source: 'https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/#aws-account-ids'
+  accounts: ['263844535661']
