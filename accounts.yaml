@@ -364,3 +364,15 @@
 - name: 'SSLMate (Sandbox Site)'
   source: 'https://sslmate.com/help/reference/misc#aws_integration'
   accounts: ['056196542512']
+- name: 'MadKudu'
+  source: 'https://support.madkudu.com/hc/en-us/articles/360036908291-Amazon-S3-Giving-MadKudu-access-to-an-S3-bucket'
+  accounts: ['203796963081']
+- name: 'env0'
+  source: 'https://docs.env0.com/docs/aws-costs'
+  accounts: ['913128560467']
+- name: 'BuildKite (log output)'
+  source: 'https://buildkite.com/docs/pipelines/managing-log-output'
+  accounts: ['032379705303']
+- name: 'Spacelift'
+  source: 'https://docs.spacelift.io/integrations/cloud-providers/aws'
+  accounts: ['324880187172']
