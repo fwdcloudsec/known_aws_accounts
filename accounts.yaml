@@ -358,6 +358,9 @@
 - name: 'Slack EKM'
   source: 'https://slackhq.com/dotcom/dotcom/wp-content/uploads/sites/6/2019/08/Slack-EKM-Implementation-Guide-1.pdf'
   accounts: ['152659312504', '429538831549']
+- name: 'CloudYali'
+  source: 'https://docs.cloudyali.io/docs/connecting_aws'
+  accounts: ['310957700191']
 - name: 'SSLMate'
   source: 'https://sslmate.com/help/reference/misc#aws_integration'
   accounts: ['423155938983']
