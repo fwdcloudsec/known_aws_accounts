@@ -361,3 +361,12 @@
 - name: 'CloudYali'
   source: 'https://docs.cloudyali.io/docs/connecting_aws'
   accounts: ['310957700191']
+- name: 'SSLMate'
+  source: 'https://sslmate.com/help/reference/misc#aws_integration'
+  accounts: ['423155938983']
+- name: 'SSLMate (Sandbox Site)'
+  source: 'https://sslmate.com/help/reference/misc#aws_integration'
+  accounts: ['056196542512']
+- name: 'OpsLevel'
+  source: 'https://docs.opslevel.com/docs/infrastructure'
+  accounts: ['746108190720']
