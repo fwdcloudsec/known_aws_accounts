@@ -367,3 +367,63 @@
 - name: 'OpsLevel'
   source: 'https://docs.opslevel.com/docs/infrastructure'
   accounts: ['746108190720']
+- name: 'Amazon Web Services'
+  source: ['https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html', 'https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html']
+  accounts: ['368064434614', '790247189693', '703715109447', '473191095985', '420376844563', '651179539253', '623197973179', '408097707231', '398671365691', '713597048934', '960118270566', '485979073181', '615915377779', '764870610256', '434091160558', '246478207311', '885798887673', '041313461515', '694668203235', '553461782468', '051362938876', '392442076723,', '525921808201', '119688915426', '193415116832', '829690693026', '669305197877', '034638983726', '886388586500', '608710470296']
+- name: 'DuckbillGroup'
+  source: ['https://www.lastweekinaws.com/blog/are-aws-account-ids-sensitive-information/']
+  accounts: ['024196225137']
+- name: 'Wiz'
+  source: []
+  accounts: ['197171649850']
+- name: 'Permiso'
+  source: []
+  accounts: ['940313271035']
+- name: 'Vanta'
+  source: []
+  accounts: ['956993596390']
+- name: 'Grafana'
+  source: ['https://grafana.com/docs/grafana-cloud/integrations/integrations/integration-cloudwatch/']
+  accounts: ['008923505280']
+- name: 'Data Theorem'
+  source: []
+  accounts: ['835257243705']
+- name: 'Orca Security'
+  source: ['https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities']
+  accounts: ['976280145156', '727815099310', '553950354547', '135916806842', '463932680998', '784971140435']
+- name: 'McAfee'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['297986523463']
+- name: 'Barracuda Networks'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['151784055945']
+- name: 'Check Point'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['758245563457']
+- name: 'CrowdStrike'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['517716713836']
+- name: 'CyberArk'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['749430749651']
+- name: 'Forcepoint'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['365761988620']
+- name: 'Guardicore'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['324264561773']
+- name: 'IBM'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['949680696695']
+- name: 'Sophos'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['062897671886']
+- name: 'Ermetic'
+  source: ['https://github.com/ermetic/utilities/blob/main/AWS/ControlTower/cloudformation/ermetic-controltower.yaml']
+  accounts: ['081802104111']
+- name: 'Zesty'
+  source: ['https://github.com/zesty-co/AWS-Integration/blob/main/Zesty-Minimal-ReadOnly-IAM-Role.json']
+  accounts: ['672188301118']
+- name: 'Serverless'
+  source: ['https://www.serverless.com/framework/docs/guides/monitoring/notifications']
+  accounts: ['802587217904']
