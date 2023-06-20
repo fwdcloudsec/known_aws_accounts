@@ -113,8 +113,8 @@
 - name: 'Spotinst'
   source: 'https://help.spotinst.com/hc/en-us/articles/360000343509-Functions-Permissions-Model-IAM-Role-'
   accounts: ['922761411349']
-- name: 'Redlock'
-  source: 'https://docs.paloaltonetworks.com/redlock/redlock-admin/connect-your-cloud-platform-to-redlock/onboard-your-aws-account/set-up-your-aws-account.html'
+- name: 'Redlock - PrismaCloud'
+  source: 'https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws'
   accounts: ['188619942792']
 - name: 'Sumo Logic'
   source: 'https://help.sumologic.com/03Send-Data/Sources/02Sources-for-Hosted-Collectors/Amazon-Web-Services/Grant-Access-to-an-AWS-Product'
@@ -138,8 +138,8 @@
   accounts: ['336818582268']
   source: 'https://insightvm.help.rapid7.com/docs/aws-connect-to-cloud-configuration-assessment'
 - name: 'Databricks'
-  source: 'https://docs.databricks.com/administration-guide/account-settings/aws-accounts.html'
-  accounts: ['414351767826']
+  source: ['https://docs.databricks.com/administration-guide/account-settings/aws-accounts.html', 'https://docs.databricks.com/sql/admin/data-access-configuration.html']
+  accounts: ['414351767826', '790110701330']
 - name: 'Threat Stack'
   source: 'https://threatstack.zendesk.com/hc/en-us/articles/206006626-AWS-EC2-Integration'
   accounts: ['896126563706']
@@ -358,12 +358,36 @@
 - name: 'Slack EKM'
   source: 'https://slackhq.com/dotcom/dotcom/wp-content/uploads/sites/6/2019/08/Slack-EKM-Implementation-Guide-1.pdf'
   accounts: ['152659312504', '429538831549']
+- name: 'CloudYali'
+  source: 'https://docs.cloudyali.io/docs/connecting_aws'
+  accounts: ['310957700191']
 - name: 'SSLMate'
   source: 'https://sslmate.com/help/reference/misc#aws_integration'
   accounts: ['423155938983']
 - name: 'SSLMate (Sandbox Site)'
   source: 'https://sslmate.com/help/reference/misc#aws_integration'
   accounts: ['056196542512']
+- name: 'MadKudu'
+  source: 'https://support.madkudu.com/hc/en-us/articles/360036908291-Amazon-S3-Giving-MadKudu-access-to-an-S3-bucket'
+  accounts: ['203796963081']
+- name: 'env0'
+  source: 'https://docs.env0.com/docs/aws-costs'
+  accounts: ['913128560467']
+- name: 'BuildKite (log output)'
+  source: 'https://buildkite.com/docs/pipelines/managing-log-output'
+  accounts: ['032379705303']
+- name: 'Spacelift'
+  source: 'https://docs.spacelift.io/integrations/cloud-providers/aws'
+  accounts: ['324880187172']
+- name: 'k9 security'
+  source: 'https://www.k9security.io/docs/how-to-configure-k9-access/'
+  accounts: ['826438284864', '139710491120']
+- name: 'Codeshield'
+  source: 'https://codeshield-public-templates-production.s3.eu-central-1.amazonaws.com/aws_connect_codeshield.yml'
+  accounts: ['457424274508']
+- name: 'OpsLevel'
+  source: 'https://docs.opslevel.com/docs/infrastructure'
+  accounts: ['746108190720']
 - name: 'GuardDuty Announcements'
   source: 'https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html'
   accounts: ['242987662583','118283430703','144182107116','934957504740','107430051933','973841112453','965013871422','506403581195','436163563069','378365507264','383009515534','646602203151','741172661024','464168911255','476419727788','457615622431','926826061926','955633302743','430639793359','002991280229','003033775354','552740612889','030935290150','188461706213','445632894446','143972945659','129086577509','225965583551','595653072700','529900636122']
