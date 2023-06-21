@@ -388,3 +388,6 @@
 - name: 'OpsLevel'
   source: 'https://docs.opslevel.com/docs/infrastructure'
   accounts: ['746108190720']
+- name: 'UiPath'
+  source: 'https://forum.uipath.com/t/how-to-configure-aws-s3-storage-bucket-log-export-configuration-for-orchestrator-service-in-automation-cloud/506448'
+  accounts: ['983328018169']
