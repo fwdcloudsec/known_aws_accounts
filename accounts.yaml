@@ -384,9 +384,6 @@
 - name: 'Orca Security'
   source: ['https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities']
   accounts: ['976280145156', '727815099310', '553950354547', '135916806842', '463932680998', '784971140435']
-- name: 'McAfee'
-  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
-  accounts: ['297986523463']
 - name: 'Barracuda Networks'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['151784055945']
@@ -402,12 +399,6 @@
 - name: 'Forcepoint'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['365761988620']
-- name: 'Guardicore'
-  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
-  accounts: ['324264561773']
-- name: 'IBM'
-  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
-  accounts: ['949680696695']
 - name: 'Sophos'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['062897671886']
