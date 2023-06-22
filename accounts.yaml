@@ -367,12 +367,9 @@
 - name: 'SSLMate (Sandbox Site)'
   source: 'https://sslmate.com/help/reference/misc#aws_integration'
   accounts: ['056196542512']
-- name: 'Sysdig (US East)'
+- name: 'Sysdig'
   source: 'https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/#aws-account-ids'
-  accounts: ['761931097553']
-- name: 'Sysdig (US West/EU)'
-  source: 'https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/#aws-account-ids'
-  accounts: ['263844535661']
+  accounts: ['761931097553', '263844535661']
 - name: 'MadKudu'
   source: 'https://support.madkudu.com/hc/en-us/articles/360036908291-Amazon-S3-Giving-MadKudu-access-to-an-S3-bucket'
   accounts: ['203796963081']
