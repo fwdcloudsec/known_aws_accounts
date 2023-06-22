@@ -358,6 +358,12 @@
 - name: 'Slack EKM'
   source: 'https://slackhq.com/dotcom/dotcom/wp-content/uploads/sites/6/2019/08/Slack-EKM-Implementation-Guide-1.pdf'
   accounts: ['152659312504', '429538831549']
+- name: 'Steampipe Cloud'
+  source: 'https://cloud.steampipe.io/user/<USER-NAME>/create/connection'
+  accounts: ['316881668097']
+- name: 'unusd.cloud'
+  source: 'https://unusd-cloud-saas-prod-artifacts-spoke.s3.eu-west-1.amazonaws.com/spoke-role.yml'
+  accounts: ['398997493752']
 - name: 'CloudYali'
   source: 'https://docs.cloudyali.io/docs/connecting_aws'
   accounts: ['310957700191']
