@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Check schema
+        uses: lyubick/action-YAML-schema-validator@9106663958769c8d4f37b2faf1e6bb52cc87f820
+        with:
+          json-schema-file: schema.json
+          yaml-json-file-dir: accounts.yaml
+          recursive: false
