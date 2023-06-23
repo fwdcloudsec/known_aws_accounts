@@ -397,10 +397,55 @@
 - name: 'OpsLevel'
   source: 'https://docs.opslevel.com/docs/infrastructure'
   accounts: ['746108190720']
+- name: 'Redshift logging'
+  type: 'aws'
+  source: ['https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html']
+  accounts: ['368064434614', '790247189693', '703715109447', '473191095985', '420376844563', '651179539253', '297058826802', '623197973179', '945512339897', '408097707231', '398671365691', '713597048934', '960118270566', '485979073181', '615915377779', '764870610256', '434091160558', '246478207311', '885798887673', '041313461515', '694668203235', '553461782468', '668912161003', '028811157404', '051362938876', '595013617770', '392442076723']
+- name: 'Cloudtrail'
+  type: 'aws'
+  source: ['https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html']
+  accounts: ['086441151436', '475085895292', '388731089494', '113285607260', '819402241893', '525921808201', '119688915426', '977081816279', '582488909970', '216624486486', '492519147666', '765225791966', '903692715234', '284668455005', '069019280451', '187074758985', '193415116832', '681348832753', '035351147821', '453052556044', '829690693026', '859597730677', '282025262664', '262312530599', '669305197877', '757211635381', '585772288577', '034638983726', '886388586500', '608710470296', '814480443879']
+- name: 'DuckbillGroup'
+  source: ['https://www.lastweekinaws.com/blog/are-aws-account-ids-sensitive-information/']
+  accounts: ['024196225137']
+- name: 'Grafana'
+  source: ['https://grafana.com/docs/grafana-cloud/integrations/integrations/integration-cloudwatch/']
+  accounts: ['008923505280']
+- name: 'Orca Security'
+  source: ['https://orcasecurity.force.com/s/article/Orca-Scanner-Accounts-for-AWS-Trusted-Entities?topic=Onboarding&subtopic=AWS&article=Orca-Scanner-Accounts-for-AWS-Trusted-Entities']
+  accounts: ['976280145156', '727815099310', '553950354547', '135916806842', '463932680998', '784971140435']
+- name: 'Barracuda Networks'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['151784055945']
+- name: 'Check Point'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['758245563457']
+- name: 'CrowdStrike'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['517716713836']
+- name: 'CyberArk'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['749430749651']
+- name: 'Forcepoint'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['365761988620']
+- name: 'Sophos'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['062897671886']
+- name: 'Ermetic'
+  source: ['https://github.com/ermetic/utilities/blob/main/AWS/ControlTower/cloudformation/ermetic-controltower.yaml']
+  accounts: ['081802104111']
+- name: 'Zesty'
+  source: ['https://github.com/zesty-co/AWS-Integration/blob/main/Zesty-Minimal-ReadOnly-IAM-Role.json']
+  accounts: ['672188301118']
+- name: 'Serverless'
+  source: ['https://www.serverless.com/framework/docs/guides/monitoring/notifications']
+  accounts: ['802587217904']
 - name: 'UiPath'
   source: 'https://forum.uipath.com/t/how-to-configure-aws-s3-storage-bucket-log-export-configuration-for-orchestrator-service-in-automation-cloud/506448'
   accounts: ['983328018169']
 - name: 'GuardDuty Announcements'
+  type: 'aws'
   source: 'https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html'
   accounts: ['242987662583','118283430703','144182107116','934957504740','107430051933','973841112453','965013871422','506403581195','436163563069','378365507264','383009515534','646602203151','741172661024','464168911255','476419727788','457615622431','926826061926','955633302743','430639793359','002991280229','003033775354','552740612889','030935290150','188461706213','445632894446','143972945659','129086577509','225965583551','595653072700','529900636122']
   
