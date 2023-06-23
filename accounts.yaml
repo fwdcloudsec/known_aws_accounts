@@ -397,6 +397,10 @@
 - name: 'OpsLevel'
   source: 'https://docs.opslevel.com/docs/infrastructure'
   accounts: ['746108190720']
+- name: 'UiPath'
+  source: 'https://forum.uipath.com/t/how-to-configure-aws-s3-storage-bucket-log-export-configuration-for-orchestrator-service-in-automation-cloud/506448'
+  accounts: ['983328018169']
 - name: 'GuardDuty Announcements'
   source: 'https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html'
   accounts: ['242987662583','118283430703','144182107116','934957504740','107430051933','973841112453','965013871422','506403581195','436163563069','378365507264','383009515534','646602203151','741172661024','464168911255','476419727788','457615622431','926826061926','955633302743','430639793359','002991280229','003033775354','552740612889','030935290150','188461706213','445632894446','143972945659','129086577509','225965583551','595653072700','529900636122']
+  
