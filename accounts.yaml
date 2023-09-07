@@ -422,7 +422,7 @@
   accounts: ['758245563457']
 - name: 'CrowdStrike'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
-  accounts: ['517716713836']
+  accounts: ['517716713836','292230061137']
 - name: 'CyberArk'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['749430749651']
