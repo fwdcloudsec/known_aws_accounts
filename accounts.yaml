@@ -468,3 +468,7 @@
   type: 'aws'
   source: 'https://console.prosperops.com/onboarding'
   accoounts: ['205499583182']
+- name: 'nOps'
+  type: 'aws'
+  source: 'https://docs.nops.io/en/articles/6818153-aws-setup-permissions-sharesave-auto-pilot-risk-free-commitment-management'
+  accounts: ['727378841472']
