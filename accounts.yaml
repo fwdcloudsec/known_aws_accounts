@@ -493,3 +493,7 @@
   type: 'aws'
   source: 'https://ubuntu.com/blog/time-to-prepare-for-ubuntu-18-04-lts-end-of-standard-support-on-31-may-2023-options-for-aws-users#:~:text=EC2%20describe%2Dimages%3A-,aws%20ec2%20describe%2Dimages,-%2D%2Doutput%20text%20%2D%2Downer'
   accounts: ['099720109477']
+- name: 'Archera'
+  type: 'aws'
+  source: 'https://help.archera.ai/en/articles/5611146-what-is-the-archera-aws-account-id'
+  accounts: ['967800896805', '202754554539']
