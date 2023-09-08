@@ -460,3 +460,7 @@
   type: 'aws'
   source: 'https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5'
   accounts: ['269135526815']
+- name: 'DoIt'
+  type: 'aws'
+  source: 'https://help.doit.com/docs/flexsave/aws/standalone/required-policies'
+  accounts: ['068664126052']
