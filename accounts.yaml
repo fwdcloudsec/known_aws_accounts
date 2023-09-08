@@ -485,3 +485,7 @@
   type: 'aws'
   source: 'https://cloudopt.usage.ai/onboard'
   accounts: ['826182721854']
+- name: 'Mackerel'
+  type: 'aws'
+  source: 'https://mackerel.io/docs/entry/integrations/aws#:~:text=How%20to%20configure%20an%20IAM%20role'
+  accounts: ['217452466226']
