@@ -489,3 +489,7 @@
   type: 'aws'
   source: 'https://mackerel.io/docs/entry/integrations/aws#:~:text=How%20to%20configure%20an%20IAM%20role'
   accounts: ['217452466226']
+- name: 'Canonical'
+  type: 'aws'
+  source: 'https://ubuntu.com/blog/time-to-prepare-for-ubuntu-18-04-lts-end-of-standard-support-on-31-may-2023-options-for-aws-users#:~:text=EC2%20describe%2Dimages%3A-,aws%20ec2%20describe%2Dimages,-%2D%2Doutput%20text%20%2D%2Downer'
+  accounts: ['099720109477']
