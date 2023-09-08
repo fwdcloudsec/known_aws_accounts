@@ -464,3 +464,7 @@
   type: 'aws'
   source: 'https://help.doit.com/docs/flexsave/aws/standalone/required-policies'
   accounts: ['068664126052']
+- name: 'ProsperOps'
+  type: 'aws'
+  source: 'https://console.prosperops.com/onboarding'
+  accoounts: ['205499583182']
