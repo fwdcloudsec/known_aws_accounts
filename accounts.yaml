@@ -472,3 +472,7 @@
   type: 'aws'
   source: 'https://docs.nops.io/en/articles/6818153-aws-setup-permissions-sharesave-auto-pilot-risk-free-commitment-management'
   accounts: ['727378841472']
+- name: 'Usage AI'
+  type: 'aws'
+  source: 'https://cloudopt.usage.ai/onboard'
+  accounts: ['826182721854']
