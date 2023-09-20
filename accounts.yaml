@@ -461,10 +461,6 @@
   type: 'aws'
   source: 'https://help.vanta.com/hc/en-us/articles/8451925240980-Connecting-Vanta-AWS-Organization'
   accounts: ['956993596390']
-- name: 'Wiz'
-  type: 'aws'
-  source: 'https://github.com/rupertbg/aws-public-account-ids/blob/master/accounts.json#L500C10-L500C22'
-  accounts: ['197171649850']
 - name: 'Drata'
   type: 'aws'
   source: 'https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5'
