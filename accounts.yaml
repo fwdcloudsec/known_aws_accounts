@@ -475,7 +475,7 @@
   accounts: ['205499583182']
 - name: 'nOps'
   type: 'aws'
-  source: 'https://docs.nops.io/en/articles/6818153-aws-setup-permissions-sharesave-auto-pilot-risk-free-commitment-management'
+  source: 'https://help.nops.io/iam-yaml-sharesave.html#sharesave-yaml-file'
   accounts: ['727378841472']
 - name: 'Usage AI'
   type: 'aws'
@@ -487,7 +487,7 @@
   accounts: ['217452466226']
 - name: 'Canonical'
   type: 'aws'
-  source: 'https://ubuntu.com/blog/time-to-prepare-for-ubuntu-18-04-lts-end-of-standard-support-on-31-may-2023-options-for-aws-users#:~:text=EC2%20describe%2Dimages%3A-,aws%20ec2%20describe%2Dimages,-%2D%2Doutput%20text%20%2D%2Downer'
+  source: 'https://ubuntu.com/server/docs/cloud-images/amazon-ec2'
   accounts: ['099720109477']
 - name: 'Archera'
   type: 'aws'
