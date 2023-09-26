@@ -114,8 +114,8 @@
   source: 'https://help.spotinst.com/hc/en-us/articles/360000343509-Functions-Permissions-Model-IAM-Role-'
   accounts: ['922761411349']
 - name: 'Redlock - PrismaCloud'
-  source: 'https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws'
-  accounts: ['188619942792']
+  source: ['https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['188619942792', '496947949261']
 - name: 'Sumo Logic'
   source: 'https://help.sumologic.com/03Send-Data/Sources/02Sources-for-Hosted-Collectors/Amazon-Web-Services/Grant-Access-to-an-AWS-Product'
   accounts: ['926226587429']
@@ -223,10 +223,10 @@
 - name: 'MVision ePO'
   source: 'https://docs.mcafee.com/bundle/prod-name-n.n.x-guide-type/page/GUID-9B6E696A-78DA-4F41-A0FC-39699DD39639.html'
   accounts: ['307653271100']
-- name: 'Cloud Workload Protection'
+- name: 'Symantec Cloud Workload Protection'
   source: 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html'
   accounts: ['754237914691']
-- name: 'Cloud Workload Protection'
+- name: 'Symantec Cloud Workload Protection'
   # Same as above, but unconfirmed ID
   accounts: ['033496790460']
 - name: 'Logz.io'
@@ -432,6 +432,15 @@
 - name: 'Sophos'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['062897671886']
+- name: 'Vectra'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['978576646331']
+- name: 'Turbot'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['453761072151']
+- name: 'Sumo Logic'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html', 'https://help.sumologic.com/docs/send-data/collect-from-other-data-sources/collect-aws-lambda-logs-extension/#aws-lambda-functions-created-using-zip-files-blueprint-serverless-applications']
+  accounts: ['956882708938']
 - name: 'Ermetic'
   source: ['https://github.com/ermetic/utilities/blob/main/AWS/ControlTower/cloudformation/ermetic-controltower.yaml']
   accounts: ['081802104111']
@@ -448,4 +457,43 @@
   type: 'aws'
   source: 'https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html'
   accounts: ['242987662583','118283430703','144182107116','934957504740','107430051933','973841112453','965013871422','506403581195','436163563069','378365507264','383009515534','646602203151','741172661024','464168911255','476419727788','457615622431','926826061926','955633302743','430639793359','002991280229','003033775354','552740612889','030935290150','188461706213','445632894446','143972945659','129086577509','225965583551','595653072700','529900636122']
-  
+- name: 'Vanta'
+  type: 'aws'
+  source: 'https://help.vanta.com/hc/en-us/articles/8451925240980-Connecting-Vanta-AWS-Organization'
+  accounts: ['956993596390']
+- name: 'Drata'
+  type: 'aws'
+  source: 'https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5'
+  accounts: ['269135526815']
+- name: 'DoIt'
+  type: 'aws'
+  source: 'https://help.doit.com/docs/flexsave/aws/standalone/required-policies'
+  accounts: ['068664126052']
+- name: 'ProsperOps'
+  type: 'aws'
+  source: 'https://console.prosperops.com/onboarding'
+  accounts: ['205499583182']
+- name: 'nOps'
+  type: 'aws'
+  source: 'https://help.nops.io/iam-yaml-sharesave.html#sharesave-yaml-file'
+  accounts: ['727378841472']
+- name: 'Usage AI'
+  type: 'aws'
+  source: 'https://cloudopt.usage.ai/onboard'
+  accounts: ['826182721854']
+- name: 'Mackerel'
+  type: 'aws'
+  source: 'https://mackerel.io/docs/entry/integrations/aws#:~:text=How%20to%20configure%20an%20IAM%20role'
+  accounts: ['217452466226']
+- name: 'Canonical'
+  type: 'aws'
+  source: 'https://ubuntu.com/server/docs/cloud-images/amazon-ec2'
+  accounts: ['099720109477']
+- name: 'Archera'
+  type: 'aws'
+  source: 'https://help.archera.ai/en/articles/5611146-what-is-the-archera-aws-account-id'
+  accounts: ['967800896805', '202754554539']
+- name: 'Flexera'
+  type: 'aws'
+  source: 'https://github.com/flexera-public/aws-control-tower/blob/1da3eb7d96e6f31cf64fa317d77a3405ac61431f/template/flexeraOptimaAWSControlTower.yaml#L227'
+  accounts: ['451234325714']
