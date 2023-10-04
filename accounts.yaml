@@ -182,9 +182,6 @@
 - name: 'CloudConformity'
   source: 'https://github.com/cloudconformity/documentation-api/blob/master/Accounts.md#update-account'
   accounts: ['717210094962']
-- name: 'Dome9 Arc'
-  source: 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html'
-  accounts: ['634729597623']
 - name: 'FortiCASB'
   source: 'https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/bf017449-572a-11e9-81a4-00505692583a/forticasb-4.1.0-admin-guide.pdf'
   accounts: ['854209929931']
