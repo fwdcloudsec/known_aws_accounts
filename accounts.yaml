@@ -211,7 +211,7 @@
 - name: 'Axonius.com'
   accounts: ['802876684602', '817364327683', '405773942477']
 - name: 'Fugue'
-  # https://docs.fugue.co/setup.html
+  source: 'https://docs.fugue.co/setup.html'
   accounts: ['370134896156', '944830124550']
 - name: 'CloudPhysics'
   source: 'https://www.cloudphysics.com/connectaws/'
@@ -307,16 +307,16 @@
   source: 'https://docs.chaossearch.io/docs/prerequisites'
   accounts: ['515570774723']
 - name: 'EDB Postgres'
-  # https://www.enterprisedb.com/edb-docs/d/edb-postgres-ark-platform/user-guides/administrative-users-guide/3.0/EDB_Ark_Administrative_User_Guide.1.20.html
+  source: 'https://www.enterprisedb.com/edb-docs/d/edb-postgres-ark-platform/user-guides/administrative-users-guide/3.0/EDB_Ark_Administrative_User_Guide.1.20.html'
   accounts: ['305753120797']
 - name: 'TheGlobalSolutions.net'
-  # http://www.theglobalsolutions.net/awspatching/saas_help.php
+  source: 'http://www.theglobalsolutions.net/awspatching/saas_help.php'
   accounts: ['726941830086']
 - name: 'wpengine'
   source: 'https://wpengine.com/support/configuring-largefs-store-transfer-unlimited-data/'
   accounts: ['902500896138']
 - name: 'cloudsqueeze'
-  # source: 'https://app.cloudsqueeze.ai/awsAddAccount'
+  source: 'https://app.cloudsqueeze.ai/awsAddAccount'
   accounts: ['759994998399']
 - name: 'ThingSpace'
   source: 'https://thingspace.verizon.com/resources/documentation/cloudconnector/Getting_Started/Streaming_to_AWS/'
