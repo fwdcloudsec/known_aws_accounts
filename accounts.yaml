@@ -261,9 +261,6 @@
 - name: 'VManage'
   source: 'https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/Network-Optimization-and-High-Availability/Network-Optimization-High-Availability-book/b_Network-Optimization-and-HA_chapter_00.html'
   accounts: ['200235630647']
-- name: 'Cloud Applicatoin Manager'
-  source: 'https://www.ctl.io/knowledge-base/cloud-application-manager/deploying-anywhere/using-your-aws-account/#create-an-iam-role-with-the-policy-chosen'
-  accounts: ['540339316802']
 - name: 'Cloudaware'
   accounts: ['814021343637']
 - name: 'Cloud Ranger'
