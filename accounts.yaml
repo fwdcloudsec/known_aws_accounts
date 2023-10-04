@@ -258,9 +258,6 @@
 - name: 'qubole'
   source: 'https://docs.qubole.com/en/latest/user-guide/managing-accounts/aws/iam-roles/override-iam-roles.html'
   accounts: ['805246085872']
-- name: 'Cloudability'
-  source: 'https://developers.cloudability.com/docs/vendor-credentials-end-point'
-  accounts: ['165736516723']
 - name: 'VManage'
   source: 'https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/Network-Optimization-and-High-Availability/Network-Optimization-High-Availability-book/b_Network-Optimization-and-HA_chapter_00.html'
   accounts: ['200235630647']
