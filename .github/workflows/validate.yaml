@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Validate YAML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: sudo snap install --edge check-jsonschema && sudo snap install yq
+      - name: Validate accounts.yaml
+        run: ./validate.sh

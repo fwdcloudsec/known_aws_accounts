@@ -100,7 +100,7 @@
 - name: 'CloudTrail'
   type: 'aws'
   source: 'https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html'
-  accounts: ['475085895292', '086441151436', '388731089494', '113285607260', '819402241893', '977081816279', '765225791966', '492519147666', '903692715234', '284668455005', '216624486486', '681348832753', '035351147821', '859597730677', '282025262664', '262312530599', '814480443879']
+  accounts: ['475085895292', '086441151436', '388731089494', '113285607260', '819402241893', '977081816279', '765225791966', '492519147666', '903692715234', '284668455005', '216624486486', '681348832753', '035351147821', '859597730677', '282025262664', '262312530599', '814480443879', '525921808201', '119688915426',  '582488909970', '069019280451', '187074758985', '193415116832',  '453052556044', '829690693026',  '669305197877', '757211635381', '585772288577', '034638983726', '886388586500', '608710470296']
 - name: 'Summit Route'
   source: 'https://summitroute.com/aws_security_assessments/'
   accounts: ['393727464233']
@@ -143,9 +143,6 @@
 - name: 'Threat Stack'
   source: 'https://threatstack.zendesk.com/hc/en-us/articles/206006626-AWS-EC2-Integration'
   accounts: ['896126563706']
-- name: 'Cloudyn'
-  source: 'https://docs.microsoft.com/bs-latn-ba/azure/cost-management/connect-aws-account'
-  accounts: ['432263259397']
 - name: 'Lucidchart'
   source: 'https://lucidchart.zendesk.com/hc/en-us/articles/208018563-Create-an-IAM-User-or-a-Cross-Account-Role-in-AWS-for-Lucidchart'
   accounts: ['799803075172']
@@ -185,17 +182,11 @@
 - name: 'CloudConformity'
   source: 'https://github.com/cloudconformity/documentation-api/blob/master/Accounts.md#update-account'
   accounts: ['717210094962']
-- name: 'Nessus AWS Connector'
-  source: 'https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/Connectors_ConfigureAWS_KeylessAutoDiscovery.htm'
-  accounts: ['012615275169']
-- name: 'Dome9 Arc'
-  source: 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html'
-  accounts: ['634729597623']
-- name: 'FortiCASB'
-  source: 'https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/bf017449-572a-11e9-81a4-00505692583a/forticasb-4.1.0-admin-guide.pdf'
-  accounts: ['854209929931']
-- name: 'FortiCWP'
-  source: 'https://docs.fortinet.com/document/forticwp/4.4.0/online-help/828941/amazon-web-services'
+- name: 'Fortinet'
+  source: [
+    'https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/bf017449-572a-11e9-81a4-00505692583a/forticasb-4.1.0-admin-guide.pdf',
+    'https://docs.fortinet.com/document/forticwp/4.4.0/online-help/828941/amazon-web-services'
+  ]
   accounts: ['854209929931']
 - name: 'Azure Sentinel'
   accounts: ['197857026523']
@@ -211,7 +202,7 @@
 - name: 'Axonius.com'
   accounts: ['802876684602', '817364327683', '405773942477']
 - name: 'Fugue'
-  # https://docs.fugue.co/setup.html
+  source: 'https://docs.fugue.co/setup.html'
   accounts: ['370134896156', '944830124550']
 - name: 'CloudPhysics'
   source: 'https://www.cloudphysics.com/connectaws/'
@@ -258,15 +249,9 @@
 - name: 'qubole'
   source: 'https://docs.qubole.com/en/latest/user-guide/managing-accounts/aws/iam-roles/override-iam-roles.html'
   accounts: ['805246085872']
-- name: 'Cloudability'
-  source: 'https://developers.cloudability.com/docs/vendor-credentials-end-point'
-  accounts: ['165736516723']
 - name: 'VManage'
   source: 'https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/Network-Optimization-and-High-Availability/Network-Optimization-High-Availability-book/b_Network-Optimization-and-HA_chapter_00.html'
   accounts: ['200235630647']
-- name: 'Cloud Applicatoin Manager'
-  source: 'https://www.ctl.io/knowledge-base/cloud-application-manager/deploying-anywhere/using-your-aws-account/#create-an-iam-role-with-the-policy-chosen'
-  accounts: ['540339316802']
 - name: 'Cloudaware'
   accounts: ['814021343637']
 - name: 'Cloud Ranger'
@@ -307,16 +292,16 @@
   source: 'https://docs.chaossearch.io/docs/prerequisites'
   accounts: ['515570774723']
 - name: 'EDB Postgres'
-  # https://www.enterprisedb.com/edb-docs/d/edb-postgres-ark-platform/user-guides/administrative-users-guide/3.0/EDB_Ark_Administrative_User_Guide.1.20.html
+  source: 'https://www.enterprisedb.com/edb-docs/d/edb-postgres-ark-platform/user-guides/administrative-users-guide/3.0/EDB_Ark_Administrative_User_Guide.1.20.html'
   accounts: ['305753120797']
 - name: 'TheGlobalSolutions.net'
-  # http://www.theglobalsolutions.net/awspatching/saas_help.php
+  source: 'http://www.theglobalsolutions.net/awspatching/saas_help.php'
   accounts: ['726941830086']
 - name: 'wpengine'
   source: 'https://wpengine.com/support/configuring-largefs-store-transfer-unlimited-data/'
   accounts: ['902500896138']
 - name: 'cloudsqueeze'
-  # source: 'https://app.cloudsqueeze.ai/awsAddAccount'
+  source: 'https://app.cloudsqueeze.ai/awsAddAccount'
   accounts: ['759994998399']
 - name: 'ThingSpace'
   source: 'https://thingspace.verizon.com/resources/documentation/cloudconnector/Getting_Started/Streaming_to_AWS/'
@@ -401,10 +386,6 @@
   type: 'aws'
   source: ['https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html']
   accounts: ['368064434614', '790247189693', '703715109447', '473191095985', '420376844563', '651179539253', '297058826802', '623197973179', '945512339897', '408097707231', '398671365691', '713597048934', '960118270566', '485979073181', '615915377779', '764870610256', '434091160558', '246478207311', '885798887673', '041313461515', '694668203235', '553461782468', '668912161003', '028811157404', '051362938876', '595013617770', '392442076723']
-- name: 'Cloudtrail'
-  type: 'aws'
-  source: ['https://docs.aws.amazon.com/redshift/latest/mgmt/logging-with-cloudtrail.html']
-  accounts: ['086441151436', '475085895292', '388731089494', '113285607260', '819402241893', '525921808201', '119688915426', '977081816279', '582488909970', '216624486486', '492519147666', '765225791966', '903692715234', '284668455005', '069019280451', '187074758985', '193415116832', '681348832753', '035351147821', '453052556044', '829690693026', '859597730677', '282025262664', '262312530599', '669305197877', '757211635381', '585772288577', '034638983726', '886388586500', '608710470296', '814480443879']
 - name: 'DuckbillGroup'
   source: ['https://www.lastweekinaws.com/blog/are-aws-account-ids-sensitive-information/']
   accounts: ['024196225137']
