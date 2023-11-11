@@ -482,3 +482,7 @@
   type: 'aws'
   source: 'https://github.com/flexera-public/aws-control-tower/blob/1da3eb7d96e6f31cf64fa317d77a3405ac61431f/template/flexeraOptimaAWSControlTower.yaml#L227'
   accounts: ['451234325714']
+- name: 'Wiz'
+  type: 'aws'
+  source: 'https://app.wiz.io'
+  accounts: ['197171649850']
