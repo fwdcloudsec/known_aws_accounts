@@ -482,3 +482,7 @@
   type: 'aws'
   source: 'https://github.com/flexera-public/aws-control-tower/blob/1da3eb7d96e6f31cf64fa317d77a3405ac61431f/template/flexeraOptimaAWSControlTower.yaml#L227'
   accounts: ['451234325714']
+- name: 'Temporal Technologies, Inc.'
+  type: 'aws'
+  source: 'https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml'
+  accounts: ['902542641901', '160190466495', '819232936619', '829909441867', '354116250941']
