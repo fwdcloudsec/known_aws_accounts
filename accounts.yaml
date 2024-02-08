@@ -486,3 +486,7 @@
   type: 'aws'
   source: 'https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml'
   accounts: ['902542641901', '160190466495', '819232936619', '829909441867', '354116250941']
+- name: 'RunReveal'
+  type: 'aws'
+  source: 'https://runreveal-public-assets.s3.us-east-2.amazonaws.com/runreveal-cloudformation.yml'
+  accounts: ['253602268883']
