@@ -490,3 +490,7 @@
   type: 'aws'
   source: 'https://runreveal-public-assets.s3.us-east-2.amazonaws.com/runreveal-cloudformation.yml'
   accounts: ['253602268883']
+- name: 'MongoDB Atlas'
+  type: 'aws'
+  source: 'https://github.com/mongodb/mongodbatlas-cloudformation-resources/blob/50e556bb4641ac6baed07a3b3b5bbf28c01d73bc/cfn-resources/datalakes/test/add-policy.json'
+  accounts: ['536727724300']
