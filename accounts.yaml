@@ -522,9 +522,6 @@
 - name: 'FireEye'
   source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
   accounts: ['264756907367']
-- name: 'FireEye'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
-  accounts: ['264756907367']
 - name: 'Guardicore'
   source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
   accounts: ['324264561773']
