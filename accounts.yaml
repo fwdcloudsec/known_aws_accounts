@@ -26,8 +26,8 @@
   source: ['https://github.com/edrans/tf-aws-iam-cloudability', 'https://developers.cloudability.com/docs/vendor-credentials-end-point']
   accounts: ['165736516723']
 - name: 'Rackspace'
-  source: 'https://manage.rackspace.com/aws/docs/product-guide/patching/ec2/meltdown.html'
-  accounts: ['507897595701']
+  source: ['https://manage.rackspace.com/aws/docs/product-guide/patching/ec2/meltdown.html','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
+  accounts: ['507897595701', '530014582677']
 - name: 'New Relic'
   source: ['https://docs.newrelic.com/docs/integrations/amazon-integrations/get-started/connect-aws-services-infrastructure', 'https://docs.newrelic.com/docs/infrastructure/new-relic-infrastructure/data-instrumentation/amazon-aws-ec2-integration-infrastructure']
   accounts: ['754728514883', '017663287629']
@@ -70,15 +70,18 @@
 - name: 'cloudsploit'
   source: 'https://cloudsploit.freshdesk.com/support/solutions/articles/17000008755-connecting-an-aws-account-to-cloudsploit'
   accounts: ['057012691312']
+- name: 'Aqua'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['978540733285']
 - name: 'globus'
   source: 'https://docs.globus.org/how-to/amazon-aws-s3-endpoints/'
   accounts: ['328067584297']
 - name: 'dynatrace'
   source: 'https://help.dynatrace.com/monitor-cloud-virtualization-and-hosts/cloud/how-do-i-start-amazon-web-services-monitoring/'
   accounts: ['509560245411']
-- name: 'deepsecurity'
-  source: 'https://esupport.trendmicro.com/media/13166096/Generate-AWS-Role.pdf'
-  accounts: ['862820443276']
+- name: 'Trend Micro deepsecurity'
+  source: ['https://esupport.trendmicro.com/media/13166096/Generate-AWS-Role.pdf','https://help.deepsecurity.trendmicro.com/Add-Computers/add-aws.html']
+  accounts: ['862820443276','147995105371']
 - name: 'cloudbreak'
   source: 'https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_cldbrk_install/bk_CLBK_IAG/content/clbk_iam_console.html'
   accounts: ['755047402263']
@@ -105,8 +108,8 @@
   source: 'https://summitroute.com/aws_security_assessments/'
   accounts: ['393727464233']
 - name: 'TrendMicro'
-  source: 'https://help.deepsecurity.trendmicro.com/Add-Computers/add-aws.html'
-  accounts: ['147995105371']
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['124790101291','607237235771','675681123645','811620960246','868324285112']
 - name: 'Convox'
   source: 'https://convox.com/docs/aws-integration'
   accounts: ['665986001363']
@@ -159,8 +162,8 @@
   source: 'https://support.cloudinary.com/hc/en-us/articles/203276521-How-do-I-allow-Cloudinary-to-read-from-my-private-S3-bucket-'
   accounts: ['232482882421']
 - name: 'Tenable'
-  source: 'https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/Connectors_ConfigureAWS_KeylessAutoDiscovery.htm'
-  accounts: ['012615275169']
+  source: ['https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/Connectors_ConfigureAWS_KeylessAutoDiscovery.htm','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
+  accounts: ['012615275169','422820575223']
 - name: 'Stitch'
   source: 'https://www.stitchdata.com/docs/destinations/amazon-s3/connecting-an-amazon-s3-data-warehouse-to-stitch'
   accounts: ['218546966473']
@@ -202,8 +205,8 @@
 - name: 'Axonius.com'
   accounts: ['802876684602', '817364327683', '405773942477']
 - name: 'Fugue'
-  source: 'https://docs.fugue.co/setup.html'
-  accounts: ['370134896156', '944830124550']
+  source: ['https://docs.fugue.co/setup.html','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
+  accounts: ['370134896156', '944830124550','057172825058','810369035479']
 - name: 'CloudPhysics'
   source: 'https://www.cloudphysics.com/connectaws/'
   accounts: ['863002038009']
@@ -265,8 +268,8 @@
 - name: 'GitLab'
   accounts: ['855262394183', '956491294349']
 - name: 'Snyk'
-  source: 'https://support.snyk.io/hc/en-us/articles/360004002418-AWS-Lambda-integration'
-  accounts: ['198361731867']
+  source: ['https://support.snyk.io/hc/en-us/articles/360004002418-AWS-Lambda-integration','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
+  accounts: ['198361731867','755778135062']
 - name: 'CloudCraft'
   accounts: ['968898580625']
 - name: 'JupiterOne'
@@ -336,6 +339,9 @@
 - name: 'Qualys AWS EC2 Connector'
   source: 'https://qualys-secure.force.com/discussions/s/question/0D52L00004TnxTqSAJ/aws-ec2-connector-creation-automation'
   accounts: ['805950163170']
+- name: 'Qualys'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['438908802199']
 - name: 'API Gateway'
   type: 'aws'
   source: 'https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html'
@@ -374,8 +380,8 @@
   source: 'https://docs.spacelift.io/integrations/cloud-providers/aws'
   accounts: ['324880187172']
 - name: 'k9 security'
-  source: 'https://www.k9security.io/docs/how-to-configure-k9-access/'
-  accounts: ['826438284864', '139710491120']
+  source: ['https://www.k9security.io/docs/how-to-configure-k9-access/','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
+  accounts: ['826438284864', '139710491120','720226181253']
 - name: 'Codeshield'
   source: 'https://codeshield-public-templates-production.s3.eu-central-1.amazonaws.com/aws_connect_codeshield.yml'
   accounts: ['457424274508']
@@ -448,8 +454,8 @@
   accounts: ['956993596390']
 - name: 'Drata'
   type: 'aws'
-  source: 'https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5'
-  accounts: ['269135526815']
+  source: ['https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
+  accounts: ['269135526815','085540434294','809336252980']
 - name: 'DoIt'
   type: 'aws'
   source: 'https://help.doit.com/docs/flexsave/aws/standalone/required-policies'
@@ -494,3 +500,52 @@
   type: 'aws'
   source: 'https://github.com/mongodb/mongodbatlas-cloudformation-resources/blob/50e556bb4641ac6baed07a3b3b5bbf28c01d73bc/cfn-resources/datalakes/test/add-policy.json'
   accounts: ['536727724300']
+- name: 'AWS First-Party Security Hub Products'
+  type: 'aws'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['252516302205','368434119798','592144602629','615243839755','814336688286','916309344264','005076071273','005891025715','080354740365','758058086616']
+- name: 'AttackIQ'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['381031177744']
+- name: 'Caveonix'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['631402103377']
+- name: 'Claroty'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['015990171708','820923007224','883241448326']
+- name: 'Contrast Security'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['490991382221','763284681916']
+- name: 'DisruptOps, Inc.'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['013944500484']
+- name: 'FireEye'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['264756907367']
+- name: 'Guardicore'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['324264561773']
+- name: 'IBM'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['949680696695']
+- name: 'McAfee'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['297986523463']
+- name: 'NETSCOUT'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['091741439927']
+- name: 'SecureCloudDB'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['585459848136']
+- name: 'ServiceNow'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['842447150064']
+- name: 'Splunk'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['112543817624']
+- name: 'Plerion'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['044642040396','173985203412','588158338731','736689547456']
+- name: 'Sonrai Security'
+  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  accounts: ['213217834095','380873608913','717025312494']
