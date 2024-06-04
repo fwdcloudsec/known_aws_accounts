@@ -581,8 +581,8 @@
   source: 'https://access.redhat.com/documentation/en-us/hybrid_committed_spend/1-latest/html-single/integrating_amazon_web_services_aws_data_into_hybrid_committed_spend/index'
   accounts: ['589173575009']
 - name: 'Scalyr'
-  source: ['https://app.scalyr.com/solutions/import-logs-from-s3', 'https://docs.scalr.io/docs/aws']
-  accounts: ['913057016266', '919814621061']
+  source: ['https://app.scalyr.com/solutions/import-logs-from-s3']
+  accounts: ['913057016266']
 - name: 'Monte Carlo'
   source: 'https://docs.getmontecarlo.com/docs/create-and-register-an-aws-agent'
   accounts: ['190812797848']
