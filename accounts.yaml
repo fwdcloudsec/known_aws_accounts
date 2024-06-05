@@ -619,3 +619,7 @@
 - name: 'Scale'
   source: 'https://scale.com/docs/aws-s3'
   accounts: ['307185671274']
+- name: 'AWS IP address ranges notifications'
+  source: 'https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html#subscribe-notifications'
+  type: 'aws'
+  accounts: ['806199016981']
