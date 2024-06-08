@@ -623,3 +623,6 @@
   source: 'https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html#subscribe-notifications'
   type: 'aws'
   accounts: ['806199016981']
+- name: 'Snotra'
+  source: 'https://snotra.cloud/about'
+  accounts: ['243001516183']
