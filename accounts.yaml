@@ -19,8 +19,8 @@
   source: 'https://support.brightcove.com/using-zencoder-s3'
   accounts: ['395540211253']
 - name: 'Datadog'
-  source: 'https://docs.datadoghq.com/integrations/guide/aws-manual-setup/'
-  accounts: ['464622532012']
+  source: ['https://docs.datadoghq.com/integrations/guide/aws-manual-setup/','https://docs.datadoghq.com/integrations/amazon_ec2/']
+  accounts: ['464622532012', '865078226113']
 - name: 'Cloudability'
   source: ['https://github.com/edrans/tf-aws-iam-cloudability', 'https://developers.cloudability.com/docs/vendor-credentials-end-point']
   accounts: ['165736516723']
