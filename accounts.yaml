@@ -113,7 +113,7 @@
   source: 'https://convox.com/docs/aws-integration'
   accounts: ['665986001363']
 - name: 'Spotinst'
-  source: 'https://help.spotinst.com/hc/en-us/articles/360000343509-Functions-Permissions-Model-IAM-Role-'
+  source: 'https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually'
   accounts: ['922761411349']
 - name: 'Redlock - PrismaCloud'
   source: ['https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
