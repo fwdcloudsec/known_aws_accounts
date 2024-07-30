@@ -626,3 +626,6 @@
 - name: 'Snotra'
   source: 'https://snotra.cloud/about'
   accounts: ['243001516183']
+- name: 'mParticle'
+  source: 'https://docs.mparticle.com/guides/data-warehouse-sync/'
+  accounts: ['338661164609','386705975570','526464060896','583371261087']
