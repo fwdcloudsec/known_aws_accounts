@@ -177,7 +177,7 @@
   accounts: ['951887872838']
 - name: 'Cloudera'
   source: ['https://blog.cloudera.com/cloudera-altus-cloud-services-youre-in-control-part-2/', 'https://docs.cloudera.com/dataflow/cloud/quick-start/topics/mc-aws-quickstart.html']
-  accounts: ['062663104137', '387553343826']
+  accounts: ['062663104137', '387553343826', '958145178466']
 - name: 'AlertLogic'
   source: ['https://docs.alertlogic.com/prepare/iam-role-creation.htm#top', 'https://docs.alertlogic.com/configure/collectors/aws_network_firewall.htm']
   accounts: ['239734009475', '733251395267', '857795874556', '230378978437']
