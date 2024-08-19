@@ -115,6 +115,9 @@
 - name: 'Spotinst'
   source: 'https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually'
   accounts: ['922761411349']
+- name: 'Spotinst'
+  source: 'https://docs.spot.io/eco/tutorials/eco-policy/create-eco-policy-with-cloudformation'
+  accounts: ['884866656237', '627743545735']
 - name: 'Redlock - PrismaCloud'
   source: ['https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['188619942792', '496947949261']
