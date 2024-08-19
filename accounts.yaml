@@ -632,3 +632,6 @@
 - name: 'Rezonate'
   source: 'https://kb.rezonate.io/core-integrations/aws-integration/aws-required-privileges'
   accounts: ['787461962774']
+- name: 'Expel'
+  source: 'https://registry.terraform.io/modules/expel-io/cloudtrail/aws/latest'
+  accounts: ['012205512454']
