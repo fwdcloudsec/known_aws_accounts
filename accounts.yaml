@@ -635,3 +635,6 @@
 - name: 'Expel'
   source: 'https://registry.terraform.io/modules/expel-io/cloudtrail/aws/latest'
   accounts: ['012205512454']
+- name: 'InfoBlox'
+  source: 'https://docs.infoblox.com/space/BloxOneDDI/512098335/AWS+-+General'
+  accounts: ['902917483333']
