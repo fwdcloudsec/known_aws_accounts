@@ -131,8 +131,8 @@
   source: 'https://onelogin.service-now.com/kb_view_customer.do?sysparm_article=KB0010344'
   accounts: ['842984801698']
 - name: 'nOps'
-  accounts: ['202279780353']
-  source: 'https://help.nops.io/manual_setup'
+  accounts: ['202279780353', '727378841472']
+  source: ['https://help.nops.io/manual_setup', 'https://help.nops.io/iam-yaml-sharesave.html#sharesave-yaml-file']
 - name: 'Fivetran'
   source: 'https://fivetran.com/docs/logs/cloudwatch/setup-guide'
   accounts: ['834469178297']
@@ -453,9 +453,6 @@
 - name: 'ProsperOps'
   source: 'https://console.prosperops.com/onboarding'
   accounts: ['205499583182']
-- name: 'nOps'
-  source: 'https://help.nops.io/iam-yaml-sharesave.html#sharesave-yaml-file'
-  accounts: ['727378841472']
 - name: 'Usage AI'
   source: 'https://cloudopt.usage.ai/onboard'
   accounts: ['826182721854']
