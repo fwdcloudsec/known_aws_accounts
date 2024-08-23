@@ -226,7 +226,8 @@
 - name: 'CloudWisdom, metricly'
   accounts: ['270852171095']
 - name: 'Rockset'
-  accounts: ['216690786812']
+  source: 'https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys'
+  accounts: ['216690786812', '318212636800']
 - name: 'CloudHiro'
   # This company apparently used to be called AWS4Less
   source: 'https://cloudhiro.com/AWS/AWSRegistrationGuide.php'
@@ -559,9 +560,6 @@
 - name: 'Telestream Cloud'
   source: 'https://docs.telestream.dev/docs/aws-private-cloud'
   accounts: ['078992246105']
-- name: 'Rockset'
-  source: 'https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys'
-  accounts: ['318212636800']
 - name: 'RudderStack'
   source: 'https://www.rudderstack.com/docs/destinations/aws-iam-role-for-rudderstack/'
   accounts: ['422074288268']
