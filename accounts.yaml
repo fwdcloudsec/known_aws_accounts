@@ -119,8 +119,8 @@
   source: ['https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['188619942792', '496947949261']
 - name: 'Sumo Logic'
-  source: 'https://help.sumologic.com/03Send-Data/Sources/02Sources-for-Hosted-Collectors/Amazon-Web-Services/Grant-Access-to-an-AWS-Product'
-  accounts: ['926226587429']
+  source: ['https://help.sumologic.com/03Send-Data/Sources/02Sources-for-Hosted-Collectors/Amazon-Web-Services/Grant-Access-to-an-AWS-Product', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html', 'https://help.sumologic.com/docs/send-data/collect-from-other-data-sources/collect-aws-lambda-logs-extension/#aws-lambda-functions-created-using-zip-files-blueprint-serverless-applications']
+  accounts: ['926226587429', '956882708938']
 - name: 'Bridgecrew'
   accounts: ['890234264427']
   source: 'https://bridgecrew.cloud'
@@ -421,9 +421,6 @@
 - name: 'Turbot'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['453761072151']
-- name: 'Sumo Logic'
-  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html', 'https://help.sumologic.com/docs/send-data/collect-from-other-data-sources/collect-aws-lambda-logs-extension/#aws-lambda-functions-created-using-zip-files-blueprint-serverless-applications']
-  accounts: ['956882708938']
 - name: 'Ermetic'
   source: ['https://github.com/ermetic/utilities/blob/main/AWS/ControlTower/cloudformation/ermetic-controltower.yaml']
   accounts: ['081802104111']
