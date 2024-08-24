@@ -331,8 +331,8 @@
   source: 'https://docs.epsagon.com/docs/faq'
   accounts: ['066549572091']
 - name: 'Turbot'
-  source: 'https://turbot.com/v5/docs/integrations/aws/import-aws-account'
-  accounts: ['287590803701', '255798382450']
+  source: ['https://turbot.com/v5/docs/integrations/aws/import-aws-account', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
+  accounts: ['287590803701', '255798382450', '453761072151']
 - name: 'Qualys AWS EC2 Connector'
   source: 'https://qualys-secure.force.com/discussions/s/question/0D52L00004TnxTqSAJ/aws-ec2-connector-creation-automation'
   accounts: ['805950163170']
@@ -422,6 +422,9 @@
 - name: 'Turbot'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['453761072151']
+- name: 'Sumo Logic'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html', 'https://help.sumologic.com/docs/send-data/collect-from-other-data-sources/collect-aws-lambda-logs-extension/#aws-lambda-functions-created-using-zip-files-blueprint-serverless-applications']
+  accounts: ['956882708938']
 - name: 'Ermetic'
   source: ['https://github.com/ermetic/utilities/blob/main/AWS/ControlTower/cloudformation/ermetic-controltower.yaml']
   accounts: ['081802104111']
@@ -624,6 +627,9 @@
 - name: 'Rezonate'
   source: 'https://kb.rezonate.io/core-integrations/aws-integration/aws-required-privileges'
   accounts: ['787461962774']
+- name: 'KubeCost'
+  source: 'https://docs.kubecost.com/v/1.0x/install-and-configure/install/cloud-integration/aws-cloud-integrations/aws-cloud-integration-using-irsa'
+  accounts: ['440082503234']
 - name: 'Expel'
   source: 'https://registry.terraform.io/modules/expel-io/cloudtrail/aws/latest'
   accounts: ['012205512454']
