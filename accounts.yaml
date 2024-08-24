@@ -419,12 +419,6 @@
 - name: 'Vectra'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['978576646331']
-- name: 'Turbot'
-  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
-  accounts: ['453761072151']
-- name: 'Sumo Logic'
-  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html', 'https://help.sumologic.com/docs/send-data/collect-from-other-data-sources/collect-aws-lambda-logs-extension/#aws-lambda-functions-created-using-zip-files-blueprint-serverless-applications']
-  accounts: ['956882708938']
 - name: 'Ermetic'
   source: ['https://github.com/ermetic/utilities/blob/main/AWS/ControlTower/cloudformation/ermetic-controltower.yaml']
   accounts: ['081802104111']
