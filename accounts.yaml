@@ -119,8 +119,8 @@
   source: ['https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['188619942792', '496947949261']
 - name: 'Sumo Logic'
-  source: 'https://help.sumologic.com/03Send-Data/Sources/02Sources-for-Hosted-Collectors/Amazon-Web-Services/Grant-Access-to-an-AWS-Product'
-  accounts: ['926226587429']
+  source: ['https://help.sumologic.com/03Send-Data/Sources/02Sources-for-Hosted-Collectors/Amazon-Web-Services/Grant-Access-to-an-AWS-Product', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html', 'https://help.sumologic.com/docs/send-data/collect-from-other-data-sources/collect-aws-lambda-logs-extension/#aws-lambda-functions-created-using-zip-files-blueprint-serverless-applications']
+  accounts: ['926226587429', '956882708938']
 - name: 'Bridgecrew'
   accounts: ['890234264427']
   source: 'https://bridgecrew.cloud'
@@ -131,8 +131,8 @@
   source: 'https://onelogin.service-now.com/kb_view_customer.do?sysparm_article=KB0010344'
   accounts: ['842984801698']
 - name: 'nOps'
-  accounts: ['202279780353']
-  source: 'https://help.nops.io/manual_setup'
+  accounts: ['202279780353', '727378841472']
+  source: ['https://help.nops.io/manual_setup', 'https://help.nops.io/iam-yaml-sharesave.html#sharesave-yaml-file']
 - name: 'Fivetran'
   source: 'https://fivetran.com/docs/logs/cloudwatch/setup-guide'
   accounts: ['834469178297']
@@ -226,7 +226,8 @@
 - name: 'CloudWisdom, metricly'
   accounts: ['270852171095']
 - name: 'Rockset'
-  accounts: ['216690786812']
+  source: 'https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys'
+  accounts: ['216690786812', '318212636800']
 - name: 'CloudHiro'
   # This company apparently used to be called AWS4Less
   source: 'https://cloudhiro.com/AWS/AWSRegistrationGuide.php'
@@ -418,9 +419,6 @@
 - name: 'Vectra'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['978576646331']
-- name: 'Sumo Logic'
-  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html', 'https://help.sumologic.com/docs/send-data/collect-from-other-data-sources/collect-aws-lambda-logs-extension/#aws-lambda-functions-created-using-zip-files-blueprint-serverless-applications']
-  accounts: ['956882708938']
 - name: 'Ermetic'
   source: ['https://github.com/ermetic/utilities/blob/main/AWS/ControlTower/cloudformation/ermetic-controltower.yaml']
   accounts: ['081802104111']
@@ -453,9 +451,6 @@
 - name: 'ProsperOps'
   source: 'https://console.prosperops.com/onboarding'
   accounts: ['205499583182']
-- name: 'nOps'
-  source: 'https://help.nops.io/iam-yaml-sharesave.html#sharesave-yaml-file'
-  accounts: ['727378841472']
 - name: 'Usage AI'
   source: 'https://cloudopt.usage.ai/onboard'
   accounts: ['826182721854']
@@ -562,9 +557,6 @@
 - name: 'Telestream Cloud'
   source: 'https://docs.telestream.dev/docs/aws-private-cloud'
   accounts: ['078992246105']
-- name: 'Rockset'
-  source: 'https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys'
-  accounts: ['318212636800']
 - name: 'RudderStack'
   source: 'https://www.rudderstack.com/docs/destinations/aws-iam-role-for-rudderstack/'
   accounts: ['422074288268']
