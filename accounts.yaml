@@ -226,7 +226,7 @@
 - name: 'CloudWisdom, metricly'
   accounts: ['270852171095']
 - name: 'Rockset'
-  source: 'https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys'
+  source: ['https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys']
   accounts: ['216690786812', '318212636800']
 - name: 'CloudHiro'
   # This company apparently used to be called AWS4Less
@@ -622,11 +622,11 @@
   source: ['https://kb.rezonate.io/core-integrations/aws-integration/aws-required-privileges']
   accounts: ['787461962774']
 - name: 'KubeCost'
-  source: 'https://docs.kubecost.com/v/1.0x/install-and-configure/install/cloud-integration/aws-cloud-integrations/aws-cloud-integration-using-irsa'
+  source: ['https://docs.kubecost.com/v/1.0x/install-and-configure/install/cloud-integration/aws-cloud-integrations/aws-cloud-integration-using-irsa']
   accounts: ['440082503234']
 - name: 'Expel'
   source: ['https://registry.terraform.io/modules/expel-io/cloudtrail/aws/latest']
   accounts: ['012205512454']
 - name: 'InfoBlox'
-  source: 'https://docs.infoblox.com/space/BloxOneDDI/512098335/AWS+-+General'
+  source: ['https://docs.infoblox.com/space/BloxOneDDI/512098335/AWS+-+General']
   accounts: ['902917483333']
