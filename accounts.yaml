@@ -7,7 +7,7 @@
 # Some of these were found originally from https://github.com/dagrz/aws_pwn/blob/master/miscellanea/integrations.txt
 
 - name: 'Cloudhealth'
-  source: 'https://github.com/mozilla/security/blob/master/operations/cloudformation-templates/cloudhealth_iam_role.json'
+  source: ['https://github.com/mozilla/security/blob/master/operations/cloudformation-templates/cloudhealth_iam_role.json']
   accounts: ['454464851268']
 - name: 'SegmentIO'
   source: ['https://segment.com/docs/destinations/amazon-s3/', 'https://segment.com/docs/destinations/amazon-kinesis/']
@@ -16,7 +16,7 @@
   source: ['https://web.archive.org/web/20150423044518/https://support.stackdriver.com/customer/portal/articles/1491790-setting-up-stackdriver-for-your-aws-account', 'https://support.stackdriver.com/customer/portal/articles/1491790-setting-up-stackdriver-for-your-aws-account']
   accounts: ['314658760392']
 - name: 'Zencoder'
-  source: 'https://support.brightcove.com/using-zencoder-s3'
+  source: ['https://support.brightcove.com/using-zencoder-s3']
   accounts: ['395540211253']
 - name: 'Datadog'
   source: ['https://docs.datadoghq.com/integrations/guide/aws-manual-setup/','https://docs.datadoghq.com/integrations/amazon_ec2/']
@@ -31,86 +31,86 @@
   source: ['https://docs.newrelic.com/docs/integrations/amazon-integrations/get-started/connect-aws-services-infrastructure', 'https://docs.newrelic.com/docs/infrastructure/new-relic-infrastructure/data-instrumentation/amazon-aws-ec2-integration-infrastructure']
   accounts: ['754728514883', '017663287629']
 - name: 'Brightcove'
-  source: 'https://support.brightcove.com/using-dynamic-ingest-s3'
+  source: ['https://support.brightcove.com/using-dynamic-ingest-s3']
   accounts: ['749779118921']
 - name: 'CloudCheckr'
-  source: 'https://support.cloudcheckr.com/cloudcheckr-api-userguide/cloudcheckr-admin-api-reference-guide/'
+  source: ['https://support.cloudcheckr.com/cloudcheckr-api-userguide/cloudcheckr-admin-api-reference-guide/']
   accounts: ['352813966189']
 - name: 'SignifAI'
-  source: 'https://docs.signifai.io/docs/amazon-web-services'
+  source: ['https://docs.signifai.io/docs/amazon-web-services']
   accounts: ['265975144233']
 - name: 'ParkMyCloud'
-  source: 'https://parkmycloud.atlassian.net/wiki/spaces/PMCUG/pages/43876427/Create+an+IAM+Role+in+AWS+for+ParkMyCloud'
+  source: ['https://parkmycloud.atlassian.net/wiki/spaces/PMCUG/pages/43876427/Create+an+IAM+Role+in+AWS+for+ParkMyCloud']
   accounts: ['753542375798']
 - name: 'CenturyLinkCloud'
-  source: 'https://www.ctl.io/knowledge-base/cloud-application-manager/deploying-anywhere/using-your-aws-account/'
+  source: ['https://www.ctl.io/knowledge-base/cloud-application-manager/deploying-anywhere/using-your-aws-account/']
   accounts: ['540339316802']
 - name: 'ELB logs'
   type: 'aws'
-  source: 'https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html'
+  source: ['https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-access-logs.html']
   accounts: ['127311923021', '033677994240', '027434742980', '797873946194', '985666609251', '054676820928', '156460612806', '652711504416', '009996457667', '582318560864', '600734575887', '383597477331', '114774131450', '783225319266', '718504428378', '507241528517', '048591011584', '638102146993', '037604701340']
 - name: 'Redshift logs'
   type: 'aws'
-  source: 'https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html'
+  source: ['https://docs.aws.amazon.com/redshift/latest/mgmt/db-auditing.html']
   accounts: ['193672423079', '391106570357', '262260360010', '902366379725', '865932855811', '760740231472', '361669875840', '762762565011', '404641285394', '660998842044', '907379612154', '053454850223', '210876761215', '307160386991', '915173422425', '075028567923']
 - name: 'Billing'
   type: 'aws'
-  source: 'https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-getting-started.html#step-2'
+  source: ['https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-getting-started.html#step-2']
   accounts: ['386209384616']
 - name: 'skeddly'
-  source: 'http://thecloudmarket.com/owner/478299826944'
+  source: ['http://thecloudmarket.com/owner/478299826944']
   accounts: ['478299826944']
 - name: 'freshservice'
-  source: 'https://support.freshservice.com/support/solutions/articles/207515-creating-a-role-arn-for-integrating-amazon-web-services-aws-in-freshservice'
+  source: ['https://support.freshservice.com/support/solutions/articles/207515-creating-a-role-arn-for-integrating-amazon-web-services-aws-in-freshservice']
   accounts: ['618708667954']
 - name: 'signalfx'
-  source: 'https://signalfx-product-docs.readthedocs-hosted.com/en/latest/getting-started/send-data.html'
+  source: ['https://signalfx-product-docs.readthedocs-hosted.com/en/latest/getting-started/send-data.html']
   accounts: ['134183635603']
 - name: 'cloudsploit'
-  source: 'https://cloudsploit.freshdesk.com/support/solutions/articles/17000008755-connecting-an-aws-account-to-cloudsploit'
+  source: ['https://cloudsploit.freshdesk.com/support/solutions/articles/17000008755-connecting-an-aws-account-to-cloudsploit']
   accounts: ['057012691312']
 - name: 'Aqua'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['978540733285']
 - name: 'globus'
-  source: 'https://docs.globus.org/how-to/amazon-aws-s3-endpoints/'
+  source: ['https://docs.globus.org/how-to/amazon-aws-s3-endpoints/']
   accounts: ['328067584297']
 - name: 'dynatrace'
-  source: 'https://help.dynatrace.com/monitor-cloud-virtualization-and-hosts/cloud/how-do-i-start-amazon-web-services-monitoring/'
+  source: ['https://help.dynatrace.com/monitor-cloud-virtualization-and-hosts/cloud/how-do-i-start-amazon-web-services-monitoring/']
   accounts: ['509560245411']
 - name: 'Trend Micro deepsecurity'
   source: ['https://esupport.trendmicro.com/media/13166096/Generate-AWS-Role.pdf','https://help.deepsecurity.trendmicro.com/Add-Computers/add-aws.html']
   accounts: ['862820443276','147995105371']
 - name: 'cloudbreak'
-  source: 'https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_cldbrk_install/bk_CLBK_IAG/content/clbk_iam_console.html'
+  source: ['https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_cldbrk_install/bk_CLBK_IAG/content/clbk_iam_console.html']
   accounts: ['755047402263']
 - name: 'teraproc'
-  source: 'http://www.teraproc.com/awskey/'
+  source: ['http://www.teraproc.com/awskey/']
   accounts: ['122931797421']
 - name: 'orbitera'
-  source: 'https://support.orbitera.com/support/solutions/articles/147040-add-new-aws-accounts'
+  source: ['https://support.orbitera.com/support/solutions/articles/147040-add-new-aws-accounts']
   accounts: ['328676173091']
 - name: 'redline13'
-  source: 'https://www.redline13.com/blog/aws-setup/'
+  source: ['https://www.redline13.com/blog/aws-setup/']
   accounts: ['635144173025']
 - name: 'kochava'
-  source: 'https://support.kochava.com/reference-information/traffic-import-tool'
+  source: ['https://support.kochava.com/reference-information/traffic-import-tool']
   accounts: ['719465667078']
 - name: 'instaclustr'
-  source: 'https://support.instaclustr.com/hc/en-us/articles/226565607-Setting-Up-a-Datacenter-with-EBS-Encryption'
+  source: ['https://support.instaclustr.com/hc/en-us/articles/226565607-Setting-Up-a-Datacenter-with-EBS-Encryption']
   accounts: ['624537489435']
 - name: 'CloudTrail'
   type: 'aws'
-  source: 'https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html'
+  source: ['https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-regions.html']
   accounts: ['475085895292', '086441151436', '388731089494', '113285607260', '819402241893', '977081816279', '765225791966', '492519147666', '903692715234', '284668455005', '216624486486', '681348832753', '035351147821', '859597730677', '282025262664', '262312530599', '814480443879', '525921808201', '119688915426',  '582488909970', '069019280451', '187074758985', '193415116832',  '453052556044', '829690693026',  '669305197877', '757211635381', '585772288577', '034638983726', '886388586500', '608710470296']
 - name: 'Summit Route'
-  source: 'https://summitroute.com/aws_security_assessments/'
+  source: ['https://summitroute.com/aws_security_assessments/']
   accounts: ['393727464233']
 - name: 'TrendMicro'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['124790101291','607237235771','675681123645','811620960246','868324285112']
 - name: 'Convox'
-  source: 'https://convox.com/docs/aws-integration'
+  source: ['https://convox.com/docs/aws-integration']
   accounts: ['665986001363']
 - name: 'Spotinst'
   source: ['https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually','https://docs.spot.io/eco/tutorials/eco-policy/create-eco-policy-with-cloudformation']
@@ -123,57 +123,57 @@
   accounts: ['926226587429', '956882708938']
 - name: 'Bridgecrew'
   accounts: ['890234264427']
-  source: 'https://bridgecrew.cloud'
+  source: ['https://bridgecrew.cloud']
 - name: 'Lacework'
-  source: 'https://support.lacework.com/hc/en-us/articles/360017546933-Getting-Started'
+  source: ['https://support.lacework.com/hc/en-us/articles/360017546933-Getting-Started']
   accounts: ['434813966438']
 - name: 'Onelogin'
-  source: 'https://onelogin.service-now.com/kb_view_customer.do?sysparm_article=KB0010344'
+  source: ['https://onelogin.service-now.com/kb_view_customer.do?sysparm_article=KB0010344']
   accounts: ['842984801698']
 - name: 'nOps'
   accounts: ['202279780353', '727378841472']
   source: ['https://help.nops.io/manual_setup', 'https://help.nops.io/iam-yaml-sharesave.html#sharesave-yaml-file']
 - name: 'Fivetran'
-  source: 'https://fivetran.com/docs/logs/cloudwatch/setup-guide'
+  source: ['https://fivetran.com/docs/logs/cloudwatch/setup-guide']
   accounts: ['834469178297']
 - name: 'Rapid7'
   accounts: ['336818582268']
-  source: 'https://insightvm.help.rapid7.com/docs/aws-connect-to-cloud-configuration-assessment'
+  source: ['https://insightvm.help.rapid7.com/docs/aws-connect-to-cloud-configuration-assessment']
 - name: 'Databricks'
   source: ['https://docs.databricks.com/administration-guide/account-settings/aws-accounts.html', 'https://docs.databricks.com/sql/admin/data-access-configuration.html']
   accounts: ['414351767826', '790110701330', '601306020600']
 - name: 'Threat Stack'
-  source: 'https://threatstack.zendesk.com/hc/en-us/articles/206006626-AWS-EC2-Integration'
+  source: ['https://threatstack.zendesk.com/hc/en-us/articles/206006626-AWS-EC2-Integration']
   accounts: ['896126563706']
 - name: 'Lucidchart'
-  source: 'https://lucidchart.zendesk.com/hc/en-us/articles/208018563-Create-an-IAM-User-or-a-Cross-Account-Role-in-AWS-for-Lucidchart'
+  source: ['https://lucidchart.zendesk.com/hc/en-us/articles/208018563-Create-an-IAM-User-or-a-Cross-Account-Role-in-AWS-for-Lucidchart']
   accounts: ['799803075172']
 - name: 'Workato'
-  source: 'https://docs.workato.com/connectors/s3.html'
+  source: ['https://docs.workato.com/connectors/s3.html']
   accounts: ['353360065216']
 - name: 'Palo Alto Networks'
-  source: 'https://github.com/terraform-providers/terraform-provider-aws/issues/6674'
+  source: ['https://github.com/terraform-providers/terraform-provider-aws/issues/6674']
   accounts: ['122442690527']
 - name: 'CloudZero'
-  source: 'https://www.cloudzero.com/hubfs/CloudZero%20Configuration%20Guide%20-%20Automated.pdf'
+  source: ['https://www.cloudzero.com/hubfs/CloudZero%20Configuration%20Guide%20-%20Automated.pdf']
   accounts: ['061190967865']
 - name: 'Cloudinary'
-  source: 'https://support.cloudinary.com/hc/en-us/articles/203276521-How-do-I-allow-Cloudinary-to-read-from-my-private-S3-bucket-'
+  source: ['https://support.cloudinary.com/hc/en-us/articles/203276521-How-do-I-allow-Cloudinary-to-read-from-my-private-S3-bucket-']
   accounts: ['232482882421']
 - name: 'Tenable'
   source: ['https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/Connectors_ConfigureAWS_KeylessAutoDiscovery.htm','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['012615275169','422820575223']
 - name: 'Stitch'
-  source: 'https://www.stitchdata.com/docs/destinations/amazon-s3/connecting-an-amazon-s3-data-warehouse-to-stitch'
+  source: ['https://www.stitchdata.com/docs/destinations/amazon-s3/connecting-an-amazon-s3-data-warehouse-to-stitch']
   accounts: ['218546966473']
 - name: 'Emnify'
-  source: 'https://www.emnify.com/datastreamer-integration-into-aws'
+  source: ['https://www.emnify.com/datastreamer-integration-into-aws']
   accounts: ['884047677700']
 - name: 'Qualys Cloud View'
-  source: 'https://qualysguard.qualys.com/qwebhelp/fo_portal/scans/ec2_connector.htm'
+  source: ['https://qualysguard.qualys.com/qwebhelp/fo_portal/scans/ec2_connector.htm']
   accounts: ['080595016317', '205767712438']
 - name: 'Auth0'
-  source: 'https://auth0.com/docs/integrations/aws/sso'
+  source: ['https://auth0.com/docs/integrations/aws/sso']
   accounts: ['951887872838']
 - name: 'Cloudera'
   source: ['https://blog.cloudera.com/cloudera-altus-cloud-services-youre-in-control-part-2/', 'https://docs.cloudera.com/dataflow/cloud/quick-start/topics/mc-aws-quickstart.html']
@@ -182,7 +182,7 @@
   source: ['https://docs.alertlogic.com/prepare/iam-role-creation.htm#top', 'https://docs.alertlogic.com/configure/collectors/aws_network_firewall.htm']
   accounts: ['239734009475', '733251395267', '857795874556', '230378978437']
 - name: 'CloudConformity'
-  source: 'https://github.com/cloudconformity/documentation-api/blob/master/Accounts.md#update-account'
+  source: ['https://github.com/cloudconformity/documentation-api/blob/master/Accounts.md#update-account']
   accounts: ['717210094962']
 - name: 'Fortinet'
   source: [
@@ -193,13 +193,13 @@
 - name: 'Azure Sentinel'
   accounts: ['197857026523']
 - name: 'Azure Billing Management'
-  source: 'https://docs.microsoft.com/en-us/azure/cost-management/aws-integration-manage'
+  source: ['https://docs.microsoft.com/en-us/azure/cost-management/aws-integration-manage']
   accounts: ['432263259397']
 - name: 'ADC Application Deployment, ADM Delivery Management'
-  source: 'https://docs.citrix.com/en-us/citrix-application-delivery-management-service/hybrid-multi-cloud-deployments/autoscale-for-aws/autoscale-for-aws-configuration.html'
+  source: ['https://docs.citrix.com/en-us/citrix-application-delivery-management-service/hybrid-multi-cloud-deployments/autoscale-for-aws/autoscale-for-aws-configuration.html']
   accounts: ['835822366011']
 - name: 'CloudManager for CloudVolumes'
-  source: 'https://docs.netapp.com/us-en/cloud_volumes/aws/media/cvs_aws_account_setup.pdf'
+  source: ['https://docs.netapp.com/us-en/cloud_volumes/aws/media/cvs_aws_account_setup.pdf']
   accounts: ['695990169366']
 - name: 'Axonius.com'
   accounts: ['802876684602', '817364327683', '405773942477']
@@ -207,17 +207,17 @@
   source: ['https://docs.fugue.co/setup.html','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['370134896156', '944830124550','057172825058','810369035479']
 - name: 'CloudPhysics'
-  source: 'https://www.cloudphysics.com/connectaws/'
+  source: ['https://www.cloudphysics.com/connectaws/']
   accounts: ['863002038009']
 - name: 'QRadar'
   accounts: ['429269239926']
 - name: 'LogicMonitor'
   accounts: ['282028653949']
 - name: 'MVision ePO'
-  source: 'https://docs.mcafee.com/bundle/prod-name-n.n.x-guide-type/page/GUID-9B6E696A-78DA-4F41-A0FC-39699DD39639.html'
+  source: ['https://docs.mcafee.com/bundle/prod-name-n.n.x-guide-type/page/GUID-9B6E696A-78DA-4F41-A0FC-39699DD39639.html']
   accounts: ['307653271100']
 - name: 'Symantec Cloud Workload Protection'
-  source: 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html'
+  source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['754237914691']
 - name: 'Logz.io'
   accounts: ['406095609952']
@@ -226,41 +226,41 @@
 - name: 'CloudWisdom, metricly'
   accounts: ['270852171095']
 - name: 'Rockset'
-  source: 'https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys'
+  source: ['https://docs.rockset.com/documentation/docs/customer-managed-encryption-keys']
   accounts: ['216690786812', '318212636800']
 - name: 'CloudHiro'
   # This company apparently used to be called AWS4Less
-  source: 'https://cloudhiro.com/AWS/AWSRegistrationGuide.php'
+  source: ['https://cloudhiro.com/AWS/AWSRegistrationGuide.php']
   accounts: ['545334166883']
 - name: 'Densify'
-  source: 'https://www.densify.com/docs/Content/Data_Collection_for_Public_Cloud_Systems/AWS_Data_Collection_Prerequisites_for_an_IAM_Role.htm'
+  source: ['https://www.densify.com/docs/Content/Data_Collection_for_Public_Cloud_Systems/AWS_Data_Collection_Prerequisites_for_an_IAM_Role.htm']
   accounts: ['036437403198']
 - name: 'Armor Anywhere'
   source: ['https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html', 'https://docs.armor.com/pages/viewpage.action?pageId=20709565']
   accounts: ['679703615338', '345186984524']
 - name: 'Genys'
-  source: 'https://help.mypurecloud.com/articles/create-iam-resources-to-invoke-an-aws-lambda-function/'
+  source: ['https://help.mypurecloud.com/articles/create-iam-resources-to-invoke-an-aws-lambda-function/']
   accounts: ['765628985471']
 - name: 'site24x7'
   accounts: ['949777495771']
 - name: 'ylastic'
-  source: 'https://blog.ylastic.com/post/153943542476/iam-role-with-external-id-for-cross-account-access'
+  source: ['https://blog.ylastic.com/post/153943542476/iam-role-with-external-id-for-cross-account-access']
   accounts: ['710193521658']
 - name: 'qubole'
-  source: 'https://docs.qubole.com/en/latest/user-guide/managing-accounts/aws/iam-roles/override-iam-roles.html'
+  source: ['https://docs.qubole.com/en/latest/user-guide/managing-accounts/aws/iam-roles/override-iam-roles.html']
   accounts: ['805246085872']
 - name: 'VManage'
-  source: 'https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/Network-Optimization-and-High-Availability/Network-Optimization-High-Availability-book/b_Network-Optimization-and-HA_chapter_00.html'
+  source: ['https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/Network-Optimization-and-High-Availability/Network-Optimization-High-Availability-book/b_Network-Optimization-and-HA_chapter_00.html']
   accounts: ['200235630647']
 - name: 'Cloudaware'
   accounts: ['814021343637']
 - name: 'Cloud Ranger'
   accounts: ['558211695259']
 - name: 'FoxPass'
-  source: 'https://docs.foxpass.com/docs/access-control-integration-with-amazon-ec2'
+  source: ['https://docs.foxpass.com/docs/access-control-integration-with-amazon-ec2']
   accounts: ['843529240033']
 - name: 'Nirmata'
-  source: 'https://nirmata-documentation.readthedocs.io/en/latest/CloudProviders.html'
+  source: ['https://nirmata-documentation.readthedocs.io/en/latest/CloudProviders.html']
   accounts: ['094919933512']
 - name: 'GitLab'
   accounts: ['855262394183', '956491294349']
@@ -270,120 +270,120 @@
 - name: 'CloudCraft'
   accounts: ['968898580625']
 - name: 'JupiterOne'
-  source: 'https://github.com/JupiterOne/jupiterone-aws-cloudformation/commit/c9abbbcc3e29474c6605a6f8ace5ec0ff475d3f8'
+  source: ['https://github.com/JupiterOne/jupiterone-aws-cloudformation/commit/c9abbbcc3e29474c6605a6f8ace5ec0ff475d3f8']
   accounts: ['612791702201']
 - name: 'rev.com'
-  source: 'https://www.rev.com/api/s3bucketpolicy'
+  source: ['https://www.rev.com/api/s3bucketpolicy']
   accounts: ['414502572119']
 - name: 'Funnel'
-  source: 'https://help.funnel.io/en/articles/1494351-amazon-s3-bucket-configuration'
+  source: ['https://help.funnel.io/en/articles/1494351-amazon-s3-bucket-configuration']
   accounts: ['071303700930']
 - name: 'Domo'
-  source: 'https://knowledge.domo.com/Connect/Connecting_to_Data_with_Connectors/Configuring_Each_Connector/Connectors_for_File_Retrieval/Amazon_S3_AssumeRole_Connector'
+  source: ['https://knowledge.domo.com/Connect/Connecting_to_Data_with_Connectors/Configuring_Each_Connector/Connectors_for_File_Retrieval/Amazon_S3_AssumeRole_Connector']
   accounts: ['339405024189', '010251424122', '687132894031', '622384692065']
 - name: 'Atlas DataLake'
   accounts: ['962727799805']
 - name: 'Upsolver'
   accounts: ['428641199958']
 - name: 'Weave Cloud'
-  source: 'https://eksctl.io/'
+  source: ['https://eksctl.io/']
   accounts: ['376248598259']
 - name: 'ChaosSearch'
-  source: 'https://docs.chaossearch.io/docs/prerequisites'
+  source: ['https://docs.chaossearch.io/docs/prerequisites']
   accounts: ['515570774723']
 - name: 'EDB Postgres'
-  source: 'https://www.enterprisedb.com/edb-docs/d/edb-postgres-ark-platform/user-guides/administrative-users-guide/3.0/EDB_Ark_Administrative_User_Guide.1.20.html'
+  source: ['https://www.enterprisedb.com/edb-docs/d/edb-postgres-ark-platform/user-guides/administrative-users-guide/3.0/EDB_Ark_Administrative_User_Guide.1.20.html']
   accounts: ['305753120797']
 - name: 'TheGlobalSolutions.net'
-  source: 'http://www.theglobalsolutions.net/awspatching/saas_help.php'
+  source: ['http://www.theglobalsolutions.net/awspatching/saas_help.php']
   accounts: ['726941830086']
 - name: 'wpengine'
-  source: 'https://wpengine.com/support/configuring-largefs-store-transfer-unlimited-data/'
+  source: ['https://wpengine.com/support/configuring-largefs-store-transfer-unlimited-data/']
   accounts: ['902500896138']
 - name: 'cloudsqueeze'
-  source: 'https://app.cloudsqueeze.ai/awsAddAccount'
+  source: ['https://app.cloudsqueeze.ai/awsAddAccount']
   accounts: ['759994998399']
 - name: 'ThingSpace'
-  source: 'https://thingspace.verizon.com/resources/documentation/cloudconnector/Getting_Started/Streaming_to_AWS/'
+  source: ['https://thingspace.verizon.com/resources/documentation/cloudconnector/Getting_Started/Streaming_to_AWS/']
   accounts: ['675479154635']
 - name: 'Anodot'
-  source: 'https://support.anodot.com/hc/en-us/articles/360034553113-Enable-Reading-from-the-Kinesis-Stream'
+  source: ['https://support.anodot.com/hc/en-us/articles/360034553113-Enable-Reading-from-the-Kinesis-Stream']
   accounts: ['340481513670']
 - name: 'MediaMath'
-  source: 'https://apidocs.mediamath.com/reporting/log-level-data-service/overview#data-security-and-authorization'
+  source: ['https://apidocs.mediamath.com/reporting/log-level-data-service/overview#data-security-and-authorization']
   accounts: ['794878508631']
 - name: 'Presidio'
-  source: 'customer IAM policy'
+  source: ['customer IAM policy']
   accounts: ['118652503430']
 - name: 'Checkpoint Cloudguard'
-  source: 'https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk159912&partition=Basic&product=CloudGuard'
+  source: ['https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk159912&partition=Basic&product=CloudGuard']
   accounts: ['634729597623']
 - name: 'Cisco Umbrella'
-  source: 'https://docs.umbrella.com/umbrella-user-guide/docs/enable-logging-to-your-own-s3-bucket'
+  source: ['https://docs.umbrella.com/umbrella-user-guide/docs/enable-logging-to-your-own-s3-bucket']
   accounts: ['568526795995']
 - name: 'Cloudflare'
-  source: 'https://developers.cloudflare.com/logs/logpush/aws-s3'
+  source: ['https://developers.cloudflare.com/logs/logpush/aws-s3']
   accounts: ['391854517948']
 - name: '[Deprecated] AWS Log delivery Service'
-  source: 'https://forums.aws.amazon.com/thread.jspa?messageID=629256'
+  source: ['https://forums.aws.amazon.com/thread.jspa?messageID=629256']
   accounts: ['858827067514']
 - name: 'Epsagon'
-  source: 'https://docs.epsagon.com/docs/faq'
+  source: ['https://docs.epsagon.com/docs/faq']
   accounts: ['066549572091']
 - name: 'Turbot'
   source: ['https://turbot.com/v5/docs/integrations/aws/import-aws-account', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['287590803701', '255798382450', '453761072151']
 - name: 'Qualys AWS EC2 Connector'
-  source: 'https://qualys-secure.force.com/discussions/s/question/0D52L00004TnxTqSAJ/aws-ec2-connector-creation-automation'
+  source: ['https://qualys-secure.force.com/discussions/s/question/0D52L00004TnxTqSAJ/aws-ec2-connector-creation-automation']
   accounts: ['805950163170']
 - name: 'Qualys'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['438908802199']
 - name: 'API Gateway'
   type: 'aws'
-  source: 'https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html'
+  source: ['https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-api-with-vpclink-accounts.html']
   accounts: ['392220576650', '718770453195', '968246515281', '109351309407', '796887884028', '631144002099', '544388816663', '061510835048', '474240146802', '166639821150', '394634713161', '753362059629', '359345898052', '969236854626', '020402002396', '195145609632', '798376113853', '652364314486', '849137399833', '507069717855', '644042651268', '174803364771', '287228555773', '855739686837', '614065512851']
 - name: 'Slack EKM'
-  source: 'https://slackhq.com/dotcom/dotcom/wp-content/uploads/sites/6/2019/08/Slack-EKM-Implementation-Guide-1.pdf'
+  source: ['https://slackhq.com/dotcom/dotcom/wp-content/uploads/sites/6/2019/08/Slack-EKM-Implementation-Guide-1.pdf']
   accounts: ['152659312504', '429538831549']
 - name: 'Steampipe Cloud'
-  source: 'https://cloud.steampipe.io/user/<USER-NAME>/create/connection'
+  source: ['https://cloud.steampipe.io/user/<USER-NAME>/create/connection']
   accounts: ['316881668097']
 - name: 'unusd.cloud'
-  source: 'https://unusd-cloud-saas-prod-artifacts-spoke.s3.eu-west-1.amazonaws.com/spoke-role.yml'
+  source: ['https://unusd-cloud-saas-prod-artifacts-spoke.s3.eu-west-1.amazonaws.com/spoke-role.yml']
   accounts: ['398997493752']
 - name: 'CloudYali'
-  source: 'https://docs.cloudyali.io/docs/connecting_aws'
+  source: ['https://docs.cloudyali.io/docs/connecting_aws']
   accounts: ['310957700191']
 - name: 'SSLMate'
-  source: 'https://sslmate.com/help/reference/misc#aws_integration'
+  source: ['https://sslmate.com/help/reference/misc#aws_integration']
   accounts: ['423155938983']
 - name: 'SSLMate (Sandbox Site)'
-  source: 'https://sslmate.com/help/reference/misc#aws_integration'
+  source: ['https://sslmate.com/help/reference/misc#aws_integration']
   accounts: ['056196542512']
 - name: 'Sysdig'
-  source: 'https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/#aws-account-ids'
+  source: ['https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/#aws-account-ids']
   accounts: ['761931097553', '263844535661']
 - name: 'MadKudu'
-  source: 'https://support.madkudu.com/hc/en-us/articles/360036908291-Amazon-S3-Giving-MadKudu-access-to-an-S3-bucket'
+  source: ['https://support.madkudu.com/hc/en-us/articles/360036908291-Amazon-S3-Giving-MadKudu-access-to-an-S3-bucket']
   accounts: ['203796963081']
 - name: 'env0'
-  source: 'https://docs.env0.com/docs/aws-costs'
+  source: ['https://docs.env0.com/docs/aws-costs']
   accounts: ['913128560467']
 - name: 'BuildKite (log output)'
-  source: 'https://buildkite.com/docs/pipelines/managing-log-output'
+  source: ['https://buildkite.com/docs/pipelines/managing-log-output']
   accounts: ['032379705303']
 - name: 'Spacelift'
-  source: 'https://docs.spacelift.io/integrations/cloud-providers/aws'
+  source: ['https://docs.spacelift.io/integrations/cloud-providers/aws']
   accounts: ['324880187172']
 - name: 'k9 security'
   source: ['https://www.k9security.io/docs/how-to-configure-k9-access/','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['826438284864', '139710491120','720226181253']
 - name: 'Codeshield'
-  source: 'https://codeshield-public-templates-production.s3.eu-central-1.amazonaws.com/aws_connect_codeshield.yml'
+  source: ['https://codeshield-public-templates-production.s3.eu-central-1.amazonaws.com/aws_connect_codeshield.yml']
   accounts: ['457424274508']
 - name: 'OpsLevel'
-  source: 'https://docs.opslevel.com/docs/infrastructure'
+  source: ['https://docs.opslevel.com/docs/infrastructure']
   accounts: ['746108190720']
 - name: 'Redshift logging'
   type: 'aws'
@@ -429,204 +429,204 @@
   source: ['https://www.serverless.com/framework/docs/guides/monitoring/notifications']
   accounts: ['802587217904']
 - name: 'UiPath'
-  source: 'https://forum.uipath.com/t/how-to-configure-aws-s3-storage-bucket-log-export-configuration-for-orchestrator-service-in-automation-cloud/506448'
+  source: ['https://forum.uipath.com/t/how-to-configure-aws-s3-storage-bucket-log-export-configuration-for-orchestrator-service-in-automation-cloud/506448']
   accounts: ['983328018169']
 - name: 'GuardDuty Announcements'
   type: 'aws'
-  source: 'https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html'
+  source: ['https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_sns.html']
   accounts: ['242987662583','118283430703','144182107116','934957504740','107430051933','973841112453','965013871422','506403581195','436163563069','378365507264','383009515534','646602203151','741172661024','464168911255','476419727788','457615622431','926826061926','955633302743','430639793359','002991280229','003033775354','552740612889','030935290150','188461706213','445632894446','143972945659','129086577509','225965583551','595653072700','529900636122']
 - name: 'EKS ECR Repositories'
   type: 'aws'
-  source: 'https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html'
+  source: ['https://docs.aws.amazon.com/eks/latest/userguide/add-ons-images.html']
   accounts: ['013241004608','066635153087','151742754352','296578399912','455263428931','491585149902','558608220178','590381155156','602401143452','759879836304','800184023465','877085696533','900612956339','900889452093','918309763551','961992271922']
 - name: 'Vanta'
-  source: 'https://help.vanta.com/hc/en-us/articles/8451925240980-Connecting-Vanta-AWS-Organization'
+  source: ['https://help.vanta.com/hc/en-us/articles/8451925240980-Connecting-Vanta-AWS-Organization']
   accounts: ['956993596390']
 - name: 'Drata'
   source: ['https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['269135526815','085540434294','809336252980']
 - name: 'DoIt'
-  source: 'https://help.doit.com/docs/flexsave/aws/standalone/required-policies'
+  source: ['https://help.doit.com/docs/flexsave/aws/standalone/required-policies']
   accounts: ['068664126052']
 - name: 'ProsperOps'
-  source: 'https://console.prosperops.com/onboarding'
+  source: ['https://console.prosperops.com/onboarding']
   accounts: ['205499583182']
 - name: 'Usage AI'
-  source: 'https://cloudopt.usage.ai/onboard'
+  source: ['https://cloudopt.usage.ai/onboard']
   accounts: ['826182721854']
 - name: 'Mackerel'
-  source: 'https://mackerel.io/docs/entry/integrations/aws#:~:text=How%20to%20configure%20an%20IAM%20role'
+  source: ['https://mackerel.io/docs/entry/integrations/aws#:~:text=How%20to%20configure%20an%20IAM%20role']
   accounts: ['217452466226']
 - name: 'Canonical'
-  source: 'https://ubuntu.com/server/docs/cloud-images/amazon-ec2'
+  source: ['https://ubuntu.com/server/docs/cloud-images/amazon-ec2']
   accounts: ['099720109477']
 - name: 'Archera'
-  source: 'https://help.archera.ai/en/articles/5611146-what-is-the-archera-aws-account-id'
+  source: ['https://help.archera.ai/en/articles/5611146-what-is-the-archera-aws-account-id']
   accounts: ['967800896805', '202754554539']
 - name: 'Flexera'
-  source: 'https://github.com/flexera-public/aws-control-tower/blob/1da3eb7d96e6f31cf64fa317d77a3405ac61431f/template/flexeraOptimaAWSControlTower.yaml#L227'
+  source: ['https://github.com/flexera-public/aws-control-tower/blob/1da3eb7d96e6f31cf64fa317d77a3405ac61431f/template/flexeraOptimaAWSControlTower.yaml#L227']
   accounts: ['451234325714']
 - name: 'Temporal Technologies, Inc.'
-  source: 'https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml'
+  source: ['https://temporal-auditlogs-config.s3.us-west-2.amazonaws.com/cloudformation/iam-role-for-temporal-audit-logs.yaml']
   accounts: ['902542641901', '160190466495', '819232936619', '829909441867', '354116250941']
 - name: 'RunReveal'
-  source: 'https://runreveal-public-assets.s3.us-east-2.amazonaws.com/runreveal-cloudformation.yml'
+  source: ['https://runreveal-public-assets.s3.us-east-2.amazonaws.com/runreveal-cloudformation.yml']
   accounts: ['253602268883']
 - name: 'MongoDB Atlas'
-  source: 'https://github.com/mongodb/mongodbatlas-cloudformation-resources/blob/50e556bb4641ac6baed07a3b3b5bbf28c01d73bc/cfn-resources/datalakes/test/add-policy.json'
+  source: ['https://github.com/mongodb/mongodbatlas-cloudformation-resources/blob/50e556bb4641ac6baed07a3b3b5bbf28c01d73bc/cfn-resources/datalakes/test/add-policy.json']
   accounts: ['536727724300']
 - name: 'AttackIQ'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['381031177744']
 - name: 'Caveonix'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['631402103377']
 - name: 'Claroty'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['015990171708','820923007224','883241448326']
 - name: 'Contrast Security'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['490991382221','763284681916']
 - name: 'DisruptOps, Inc.'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['013944500484']
 - name: 'FireEye'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['264756907367']
 - name: 'Guardicore'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['324264561773']
 - name: 'IBM'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['949680696695']
 - name: 'McAfee'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['297986523463']
 - name: 'NETSCOUT'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['091741439927']
 - name: 'SecureCloudDB'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['585459848136']
 - name: 'ServiceNow'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['842447150064']
 - name: 'Splunk'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['112543817624']
 - name: 'Plerion'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['044642040396','173985203412','588158338731','736689547456']
 - name: 'Sonrai Security'
-  source: 'https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/'
+  source: ['https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['213217834095','380873608913','717025312494']
 - name: 'sst.dev'
   source: ['https://github.com/sst/sst/blob/master/packages/sst/src/constructs/NextjsSite.ts', 'https://sst.dev/chapters/ko/deploy-your-serverless-infrastructure.html']
   accounts: ['226609089145', '232771856781']
 - name: 'HYCU'
-  source: 'https://download.hycu.com/ec/v4.8.0/help/en/HYCU_UserGuide.pdf'
+  source: ['https://download.hycu.com/ec/v4.8.0/help/en/HYCU_UserGuide.pdf']
   accounts: ['787223699828']
 - name: 'Salesforce'
-  source: 'https://help.salesforce.com/s/articleView?id=sf.voice_ac_iam_role.htm&language=en_US&type=5'
+  source: ['https://help.salesforce.com/s/articleView?id=sf.voice_ac_iam_role.htm&language=en_US&type=5']
   accounts: ['793525387755']
 - name: 'Scalr'
-  source: 'https://docs.scalr.io/docs/aws'
+  source: ['https://docs.scalr.io/docs/aws']
   accounts: ['919814621061']
 - name: 'Commerce Analytics Service'
   type: 'aws'
-  source: 'https://docs.aws.amazon.com/marketplace/latest/userguide/commerce-analytics-service.html'
+  source: ['https://docs.aws.amazon.com/marketplace/latest/userguide/commerce-analytics-service.html']
   accounts: ['452565589796']
 - name: 'Hightouch'
-  source: 'https://hightouch.com/docs/security/aws'
+  source: ['https://hightouch.com/docs/security/aws']
   accounts: ['324528010823']
 - name: 'Postman'
-  source: 'https://learning.postman.com/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/'
+  source: ['https://learning.postman.com/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/']
   accounts: ['258201882842']
 - name: 'Ox'
-  source: 'https://docs.ox.security/making-connections/aws'
+  source: ['https://docs.ox.security/making-connections/aws']
   accounts: ['351456651185']
 - name: 'Palo Alto Networks Cortex'
-  source: 'https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Pro-Administrator-Guide/Create-an-Assumed-Role'
+  source: ['https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Pro-Administrator-Guide/Create-an-Assumed-Role']
   accounts: ['006742885340']
 - name: 'Red Canary'
-  source: 'https://help.redcanary.com/hc/en-us/articles/16640944173463-Integrate-Amazon-Web-Services-AWS-with-Red-Canary'
+  source: ['https://help.redcanary.com/hc/en-us/articles/16640944173463-Integrate-Amazon-Web-Services-AWS-with-Red-Canary']
   accounts: ['823104324086']
 - name: 'Microsoft Purview'
-  source: 'https://learn.microsoft.com/en-us/purview/register-scan-amazon-rds'
+  source: ['https://learn.microsoft.com/en-us/purview/register-scan-amazon-rds']
   accounts: ['181328463391']
 - name: 'Telestream Cloud'
-  source: 'https://docs.telestream.dev/docs/aws-private-cloud'
+  source: ['https://docs.telestream.dev/docs/aws-private-cloud']
   accounts: ['078992246105']
 - name: 'RudderStack'
-  source: 'https://www.rudderstack.com/docs/destinations/aws-iam-role-for-rudderstack/'
+  source: ['https://www.rudderstack.com/docs/destinations/aws-iam-role-for-rudderstack/']
   accounts: ['422074288268']
 - name: 'Hyperproof'
-  source: 'https://docs.hyperproof.io/user/en/hypersyncs/connecting-aws/cross-account-role'
+  source: ['https://docs.hyperproof.io/user/en/hypersyncs/connecting-aws/cross-account-role']
   accounts: ['030157059230']
 - name: 'Starburst'
-  source: 'https://docs.starburst.io/starburst-galaxy/security-and-compliance/manage-cluster-connectivity/private-connections/aws-privatelink-for-rds.html'
+  source: ['https://docs.starburst.io/starburst-galaxy/security-and-compliance/manage-cluster-connectivity/private-connections/aws-privatelink-for-rds.html']
   accounts: ['179619298502']
 - name: 'Red Hat Hybrid Cloud'
-  source: 'https://access.redhat.com/documentation/en-us/hybrid_committed_spend/1-latest/html-single/integrating_amazon_web_services_aws_data_into_hybrid_committed_spend/index'
+  source: ['https://access.redhat.com/documentation/en-us/hybrid_committed_spend/1-latest/html-single/integrating_amazon_web_services_aws_data_into_hybrid_committed_spend/index']
   accounts: ['589173575009']
 - name: 'Scalyr'
   source: ['https://app.scalyr.com/solutions/import-logs-from-s3']
   accounts: ['913057016266']
 - name: 'Monte Carlo'
-  source: 'https://docs.getmontecarlo.com/docs/create-and-register-an-aws-agent'
+  source: ['https://docs.getmontecarlo.com/docs/create-and-register-an-aws-agent']
   accounts: ['190812797848']
 - name: 'Census'
-  source: 'https://docs.getcensus.com/sources/available-sources/s3'
+  source: ['https://docs.getcensus.com/sources/available-sources/s3']
   accounts: ['341876425553']
 - name: 'Anyscale'
-  source: 'https://docs.anyscale.com/1.0.0/cloud-deployment/aws/manage-clouds/'
+  source: ['https://docs.anyscale.com/1.0.0/cloud-deployment/aws/manage-clouds/']
   accounts: ['525325868955']
 - name: 'Hevo'
-  source: 'https://docs.hevodata.com/destinations/cloud-storage-based/amazon-s3-destination/'
+  source: ['https://docs.hevodata.com/destinations/cloud-storage-based/amazon-s3-destination/']
   accounts: ['393309748692']
 - name: 'Ottertune'
-  source: 'https://docs.ottertune.com/support/kb/articles/49EvgwW7/create-iam-role'
+  source: ['https://docs.ottertune.com/support/kb/articles/49EvgwW7/create-iam-role']
   accounts: ['691523222388']
 - name: 'Trend Micro Cloud One'
-  source: 'https://cloudone.trendmicro.com/docs/network-security/api-reference/tag/Notifications/'
+  source: ['https://cloudone.trendmicro.com/docs/network-security/api-reference/tag/Notifications/']
   accounts: ['737318609257']
 - name: 'BigPanda'
-  source: 'https://docs.bigpanda.io/docs/etl-sync'
+  source: ['https://docs.bigpanda.io/docs/etl-sync']
   accounts: ['103749124141']
 - name: 'Transcend'
-  source: 'https://transcend.io/blog/why-we-built-cli-terraform-provider'
+  source: ['https://transcend.io/blog/why-we-built-cli-terraform-provider']
   accounts: ['829095311197']
 - name: 'Holori'
-  source: 'https://doc.holori.com/Import%20from%20provider/connectaws/'
+  source: ['https://doc.holori.com/Import%20from%20provider/connectaws/']
   accounts: ['112070389366']
 - name: 'Nordcloud'
-  source: 'https://docs.klarity.nordcloudapp.com/onboarding-billing/'
+  source: ['https://docs.klarity.nordcloudapp.com/onboarding-billing/']
   accounts: ['192799248640']
 - name: 'Kustomer'
-  source: 'https://help.kustomer.com/en_us/amazon-kinesis-data-streams-rJhIYV2fM'
+  source: ['https://help.kustomer.com/en_us/amazon-kinesis-data-streams-rJhIYV2fM']
   accounts: ['241254095402']
 - name: 'Scale'
-  source: 'https://scale.com/docs/aws-s3'
+  source: ['https://scale.com/docs/aws-s3']
   accounts: ['307185671274']
 - name: 'AWS IP address ranges notifications'
-  source: 'https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html#subscribe-notifications'
+  source: ['https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html#subscribe-notifications']
   type: 'aws'
   accounts: ['806199016981']
 - name: 'Snotra'
-  source: 'https://snotra.cloud/about'
+  source: ['https://snotra.cloud/about']
   accounts: ['243001516183']
 - name: 'mParticle'
-  source: 'https://docs.mparticle.com/guides/data-warehouse-sync/'
+  source: ['https://docs.mparticle.com/guides/data-warehouse-sync/']
   accounts: ['338661164609','386705975570','526464060896','583371261087']
 - name: 'Rezonate'
-  source: 'https://kb.rezonate.io/core-integrations/aws-integration/aws-required-privileges'
+  source: ['https://kb.rezonate.io/core-integrations/aws-integration/aws-required-privileges']
   accounts: ['787461962774']
 - name: 'KubeCost'
-  source: 'https://docs.kubecost.com/v/1.0x/install-and-configure/install/cloud-integration/aws-cloud-integrations/aws-cloud-integration-using-irsa'
+  source: ['https://docs.kubecost.com/v/1.0x/install-and-configure/install/cloud-integration/aws-cloud-integrations/aws-cloud-integration-using-irsa']
   accounts: ['440082503234']
 - name: 'Expel'
-  source: 'https://registry.terraform.io/modules/expel-io/cloudtrail/aws/latest'
+  source: ['https://registry.terraform.io/modules/expel-io/cloudtrail/aws/latest']
   accounts: ['012205512454']
 - name: 'InfoBlox'
-  source: 'https://docs.infoblox.com/space/BloxOneDDI/512098335/AWS+-+General'
+  source: ['https://docs.infoblox.com/space/BloxOneDDI/512098335/AWS+-+General']
   accounts: ['902917483333']

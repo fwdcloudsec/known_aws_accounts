@@ -8,18 +8,11 @@
         "type": "string"
       },
       "source": {
-        "anyOf": [
-          {
-            "type": "string"
-          },
-          {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "uniqueItems": true
-          }
-        ]
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
       },
       "accounts": {
         "type": "array",
