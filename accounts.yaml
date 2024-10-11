@@ -630,3 +630,6 @@
 - name: 'InfoBlox'
   source: ['https://docs.infoblox.com/space/BloxOneDDI/512098335/AWS+-+General']
   accounts: ['902917483333']
+- name: 'Prophetstor Federator.ai'
+  source: ['https://prophetstor.com/wp-content/uploads/documentation/Federator.ai/Setup%20Guide/Federator.ai%20AWS%20IAM%20Role%20and%20IAM%20Policy%20Setup%20Guide.pdf']
+  accounts: ['635005593121']
