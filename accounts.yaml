@@ -324,7 +324,7 @@
 - name: 'Cloudflare'
   source: ['https://developers.cloudflare.com/logs/logpush/aws-s3']
   accounts: ['391854517948']
-- name: '[Deprecated] AWS Log delivery Service'
+- name: 'AWS Log Delivery Service'
   source: ['https://forums.aws.amazon.com/thread.jspa?messageID=629256']
   accounts: ['858827067514']
   enabled: false
