@@ -634,3 +634,6 @@
 - name: 'Prophetstor Federator.ai'
   source: ['https://prophetstor.com/wp-content/uploads/documentation/Federator.ai/Setup%20Guide/Federator.ai%20AWS%20IAM%20Role%20and%20IAM%20Policy%20Setup%20Guide.pdf']
   accounts: ['635005593121']
+- name: 'Tailscale'
+  source: ['https://tailscale.com/kb/1255/log-streaming?tab=amazon+s3']
+  accounts: ['891612552178']
