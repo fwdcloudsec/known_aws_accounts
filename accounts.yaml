@@ -637,3 +637,6 @@
 - name: 'Tailscale'
   source: ['https://tailscale.com/kb/1255/log-streaming?tab=amazon+s3']
   accounts: ['891612552178']
+- name: 'StrongDM'
+  source: ['https://www.strongdm.com/docs/admin/logs/log-stream/']
+  accounts: ['910226215634']
