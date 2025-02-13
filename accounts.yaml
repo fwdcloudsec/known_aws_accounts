@@ -643,7 +643,7 @@
   accounts: ['910226215634']
 - name: 'Twingate'
   source: ['https://www.twingate.com/docs/terraform-aws']
-  accounts: ['099720109477']
+  accounts: ['617935088040']
 - name: 'Oracle'
   source: ['https://blogs.oracle.com/linux/post/running-oracle-linux-in-public-clouds']
   accounts: ['131827586825']
