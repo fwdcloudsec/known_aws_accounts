@@ -263,7 +263,8 @@
   source: ['https://nirmata-documentation.readthedocs.io/en/latest/CloudProviders.html']
   accounts: ['094919933512']
 - name: 'GitLab'
-  accounts: ['855262394183', '956491294349']
+  source: ['https://docs.gitlab.com/ee/solutions/cloud/aws/gitlab_single_box_on_aws.html#official-gitlab-releases-as-amis']
+  accounts: ['855262394183', '956491294349', '782774275127']
 - name: 'Snyk'
   source: ['https://support.snyk.io/hc/en-us/articles/360004002418-AWS-Lambda-integration','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['198361731867','755778135062']
@@ -640,3 +641,9 @@
 - name: 'StrongDM'
   source: ['https://www.strongdm.com/docs/admin/logs/log-stream/']
   accounts: ['910226215634']
+- name: 'Twingate'
+  source: ['https://www.twingate.com/docs/terraform-aws']
+  accounts: ['617935088040']
+- name: 'Oracle'
+  source: ['https://blogs.oracle.com/linux/post/running-oracle-linux-in-public-clouds']
+  accounts: ['131827586825']
