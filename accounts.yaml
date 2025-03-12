@@ -647,3 +647,24 @@
 - name: 'Oracle'
   source: ['https://blogs.oracle.com/linux/post/running-oracle-linux-in-public-clouds']
   accounts: ['131827586825']
+- name: 'Atmosphere IOT'
+  source: ['https://docs.atmosphereiot.com/aws-integration-setup-guide/']
+  accounts: ['966208727603']
+- name: 'Snowplow'
+  source: ['https://docs.snowplow.io/docs/get-started/snowplow-bdp/private-managed-cloud/setup-guide-aws/']
+  accounts: ['793733611312']
+- name: 'Qleet'
+  source: [' https://docs.qleet.io/guides/add-aws-account/']
+  accounts: [' 983530947477']
+- name: 'Doppler'
+  source: [' https://docs.doppler.com/docs/aws-iam']
+  accounts: ['299900769157']
+- name: 'Improvado'
+  source: ['https://improvado.io/docs/aws-s3-destination']
+  accounts: ['716309063777']
+- name: 'Tealium'
+  source: ['https://docs.tealium.com/early-access/server-side-connectors/databricks-customer-provided-storage-connector/']
+  accounts: ['757913464184']
+- name: 'Quartzy'
+  source: ['https://support.quartzy.com/hc/en-us/articles/12312389576731-Benchling-Integration-Setup-Guide']
+  accounts: ['183060441923']
