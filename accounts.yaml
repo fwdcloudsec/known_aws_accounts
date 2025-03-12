@@ -655,7 +655,7 @@
   accounts: ['793733611312']
 - name: 'Qleet'
   source: [' https://docs.qleet.io/guides/add-aws-account/']
-  accounts: [' 983530947477']
+  accounts: ['983530947477']
 - name: 'Doppler'
   source: [' https://docs.doppler.com/docs/aws-iam']
   accounts: ['299900769157']
