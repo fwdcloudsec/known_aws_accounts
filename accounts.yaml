@@ -675,3 +675,6 @@
 - name: 'Atlassian'
   source: ['https://support.atlassian.com/cloud-automation/docs/configure-aws-sns-for-jira-automation/']
   accounts: ['815843069303']
+- name: 'Testable'
+  source: ['https://docs.testable.io/guides/self-hosted-aws.html']
+  accounts: ['220197662125']
