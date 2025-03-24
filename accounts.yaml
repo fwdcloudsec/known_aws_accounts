@@ -675,3 +675,9 @@
 - name: 'Upwind'
   source: ['https://docs.upwind.io/public/getting-started/connect-cloud-account/aws/v1/organization#run-cloudformation-stackset-template', 'https://cfn.upwind.io.s3.amazonaws.com/onboarding/latest.yaml']
   accounts: ['340457201789']
+- name: 'Atlassian'
+  source: ['https://support.atlassian.com/cloud-automation/docs/configure-aws-sns-for-jira-automation/']
+  accounts: ['815843069303']
+- name: 'Testable'
+  source: ['https://docs.testable.io/guides/self-hosted-aws.html']
+  accounts: ['220197662125']
