@@ -672,6 +672,9 @@
   type: 'aws'
   source: ['https://docs.aws.amazon.com/guardduty/latest/ug/gdu-service-account-region-list.html']
   accounts: ['652050842985','178123968615','669213148797','447226417196','913179291432','089661699081','039163547507','874749492622','247460962669','124839743349','175877067165','894794104037','002294850712','283769539786','310125036783','866607715269','693780578038','448721096076','480864352451','546914126324','682251015962','353488359550','009160069308','936182149045','867642063380','619233833001','977238331021','249472122084','404001805210','957664736811','452118225523','828603743433']
+- name: 'Upwind'
+  source: ['https://docs.upwind.io/public/getting-started/connect-cloud-account/aws/v1/organization#run-cloudformation-stackset-template', 'https://cfn.upwind.io.s3.amazonaws.com/onboarding/latest.yaml']
+  accounts: ['340457201789']
 - name: 'Atlassian'
   source: ['https://support.atlassian.com/cloud-automation/docs/configure-aws-sns-for-jira-automation/']
   accounts: ['815843069303']
