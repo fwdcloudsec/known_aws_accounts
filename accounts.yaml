@@ -684,3 +684,6 @@
 - name: 'SailPoint'
   source: ['https://documentation.sailpoint.com/saas/help/ciem/aws/config/config_aws_manual.html#commercial']
   accounts: ['874540850173']
+- name: 'LaunchDarkly'
+  source: ['https://launchdarkly.com/docs/home/flags/segment-config#expand-creating-the-aws-role']
+  accounts: ['554582317989']
