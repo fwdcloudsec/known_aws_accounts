@@ -684,3 +684,6 @@
 - name: 'SailPoint'
   source: ['https://documentation.sailpoint.com/saas/help/ciem/aws/config/config_aws_manual.html#commercial']
   accounts: ['874540850173']
+- name: 'SafeGraph'
+  source: ['https://docs.safegraph.com/docs/s3#s3-bucket-configuration']
+  accounts: ['461305247324']
