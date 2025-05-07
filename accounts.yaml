@@ -687,3 +687,6 @@
 - name: 'SafeGraph'
   source: ['https://docs.safegraph.com/docs/s3#s3-bucket-configuration']
   accounts: ['461305247324']
+- name: 'LaunchDarkly'
+  source: ['https://launchdarkly.com/docs/home/flags/segment-config#expand-creating-the-aws-role']
+  accounts: ['554582317989']
