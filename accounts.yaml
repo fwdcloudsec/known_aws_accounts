@@ -687,3 +687,9 @@
 - name: 'StarTree'
   source: ['https://dev.startree.ai/docs/get-started-with-startree-cloud/byoc/cloud-provider#create-an-iam-role']
   accounts: ['819814149250']
+- name: 'SafeGraph'
+  source: ['https://docs.safegraph.com/docs/s3#s3-bucket-configuration']
+  accounts: ['461305247324']
+- name: 'LaunchDarkly'
+  source: ['https://launchdarkly.com/docs/home/flags/segment-config#expand-creating-the-aws-role']
+  accounts: ['554582317989']
