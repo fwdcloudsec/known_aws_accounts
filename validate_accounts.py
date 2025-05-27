@@ -1,14 +1,12 @@
-import yaml
-import asyncio
-from pyppeteer import launch
-import sys
-import re
 import argparse
+import asyncio
 import os
-import time
-from tqdm import tqdm
 import signal
-import json
+import time
+
+import yaml
+from pyppeteer import launch
+from tqdm import tqdm
 
 # Global variable to track if the script is being interrupted
 is_interrupted = False
