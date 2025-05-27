@@ -168,28 +168,43 @@ async def validate_accounts(args):
         print("Make sure you have Chrome or Chromium installed.")
         return
 
-    # List to store referenced accounts
+    # Lists to store referenced and unverified accounts
     referenced_accounts = []
+    unverified_accounts = []
 
     # For resuming from a checkpoint
     start_index = 0
     if args.resume and os.path.exists(args.output_file):
         try:
+            # Load referenced accounts
             with open(args.output_file, 'r') as file:
                 referenced_accounts = yaml.safe_load(file) or []
 
-            # Find the index to resume from
-            if referenced_accounts:
-                last_account = referenced_accounts[-1]
-                for i, account in enumerate(accounts):
-                    if account.get('name') == last_account.get('name') and account.get('accounts') == last_account.get('accounts'):
-                        start_index = i + 1
-                        break
+            # Load unverified accounts if the file exists
+            if os.path.exists(args.unverified_file):
+                with open(args.unverified_file, 'r') as file:
+                    unverified_accounts = yaml.safe_load(file) or []
 
-                print(f"Resuming from account #{start_index} (after '{last_account.get('name')}')")
+            # Find the index to resume from
+            processed_accounts = referenced_accounts + unverified_accounts
+            if processed_accounts:
+                # Sort processed accounts by their position in the original accounts list
+                processed_indices = []
+                for processed_account in processed_accounts:
+                    for i, account in enumerate(accounts):
+                        if account.get('name') == processed_account.get('name') and account.get('accounts') == processed_account.get('accounts'):
+                            processed_indices.append(i)
+                            break
+
+                if processed_indices:
+                    # Resume from the account after the last processed account
+                    start_index = max(processed_indices) + 1
+                    last_account_name = accounts[start_index - 1].get('name', 'Unknown')
+                    print(f"Resuming from account #{start_index} (after '{last_account_name}')")
         except Exception as e:
-            print(f"Error loading checkpoint from {args.output_file}: {str(e)}")
+            print(f"Error loading checkpoint: {str(e)}")
             referenced_accounts = []
+            unverified_accounts = []
 
     # Slice the accounts list based on limit and start_index
     if args.limit > 0:
@@ -247,16 +262,24 @@ async def validate_accounts(args):
                 if not args.quiet:
                     print(f"Added {name} to referenced accounts")
             else:
+                # Add the account to the unverified accounts list
+                unverified_accounts.append(account)
                 if not args.quiet:
                     print(f"Account {name} is not referenced in any of its sources")
 
             # Save progress periodically
             if args.checkpoint > 0 and len(referenced_accounts) % args.checkpoint == 0:
                 try:
+                    # Save referenced accounts
                     with open(args.output_file, 'w') as file:
                         yaml.dump(referenced_accounts, file, default_flow_style=False)
+
+                    # Save unverified accounts
+                    with open(args.unverified_file, 'w') as file:
+                        yaml.dump(unverified_accounts, file, default_flow_style=False)
+
                     if not args.quiet:
-                        print(f"Checkpoint saved to {args.output_file}")
+                        print(f"Checkpoint saved to {args.output_file} and {args.unverified_file}")
                 except Exception as e:
                     print(f"Error saving checkpoint: {str(e)}")
 
@@ -271,15 +294,26 @@ async def validate_accounts(args):
             yaml.dump(referenced_accounts, file, default_flow_style=False)
 
         print(f"Validation complete. {len(referenced_accounts)} accounts are still referenced.")
-        print(f"Results written to {args.output_file}")
+        print(f"Referenced accounts written to {args.output_file}")
     except Exception as e:
         print(f"Error writing to {args.output_file}: {str(e)}")
+
+    # Write the unverified accounts to unverified file
+    try:
+        with open(args.unverified_file, 'w') as file:
+            yaml.dump(unverified_accounts, file, default_flow_style=False)
+
+        print(f"{len(unverified_accounts)} accounts could not be verified.")
+        print(f"Unverified accounts written to {args.unverified_file}")
+    except Exception as e:
+        print(f"Error writing to {args.unverified_file}: {str(e)}")
 
 def parse_arguments():
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(description='Validate AWS account references in source URLs.')
     parser.add_argument('-i', '--input-file', default='accounts.yaml', help='Input YAML file (default: accounts.yaml)')
-    parser.add_argument('-o', '--output-file', default='referenced.yaml', help='Output YAML file (default: referenced.yaml)')
+    parser.add_argument('-o', '--output-file', default='referenced.yaml', help='Output YAML file for referenced accounts (default: referenced.yaml)')
+    parser.add_argument('-u', '--unverified-file', default='unverified.yaml', help='Output YAML file for unverified accounts (default: unverified.yaml)')
     parser.add_argument('-l', '--limit', type=int, default=0, help='Limit the number of accounts to check (default: 0 = all)')
     parser.add_argument('-q', '--quiet', action='store_true', help='Suppress detailed output')
     parser.add_argument('-r', '--retries', type=int, default=2, help='Number of retries for failed requests (default: 2)')
