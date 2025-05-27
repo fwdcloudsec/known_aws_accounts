@@ -1,10 +1,10 @@
-# AWS Account Validation Script
+# AWS Account Verification Script
 
-This script validates that each AWS account listed in the `accounts.yaml` file is still referenced on its source webpages.
+This script verifies that each AWS account listed in the `accounts.yaml` file is still referenced on its source webpages.
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.7+ (developed w/ 3.11 on MacOS)
 - Dependencies listed in `requirements.txt`
 
 ## Installation
@@ -21,13 +21,13 @@ pip install -r requirements.txt
 Run the script with:
 
 ```bash
-python validate_accounts.py
+python verify_accounts.py
 ```
 
 By default, this will:
 1. Read accounts from `accounts.yaml`
 2. Check each account ID against its source URLs
-3. Write accounts that are still referenced to `referenced.yaml`
+3. Write accounts that are still referenced to `verified.yaml`
 
 ### Command-line Options
 
@@ -35,7 +35,8 @@ The script supports several command-line options:
 
 ```
 -i, --input-file FILE    Input YAML file (default: accounts.yaml)
--o, --output-file FILE   Output YAML file (default: referenced.yaml)
+-o, --output-file FILE   Output YAML file for successfully verified accounts (default: verified.yaml)
+-u, --unverified-file FILE   Output YAML file for unverified accounts (default: unverified.yaml)
 -l, --limit N            Limit the number of accounts to check (default: 0 = all)
 -q, --quiet              Suppress detailed output
 -r, --retries N          Number of retries for failed requests (default: 2)
@@ -48,32 +49,32 @@ The script supports several command-line options:
 
 Check only the first 5 accounts:
 ```bash
-python validate_accounts.py --limit 5
+python verify_accounts.py --limit 5
 ```
 
 Use a different input/output file:
 ```bash
-python validate_accounts.py -i my_accounts.yaml -o valid_accounts.yaml
+python verify_accounts.py -i my_accounts.yaml -o valid_accounts.yaml
 ```
 
 Run in quiet mode:
 ```bash
-python validate_accounts.py -q
+python verify_accounts.py -q
 ```
 
 Increase the number of retries for unreliable connections:
 ```bash
-python validate_accounts.py --retries 5
+python verify_accounts.py --retries 5
 ```
 
 Save a checkpoint every 5 accounts:
 ```bash
-python validate_accounts.py --checkpoint 5
+python verify_accounts.py --checkpoint 5
 ```
 
 Resume from where you left off:
 ```bash
-python validate_accounts.py --resume
+python verify_accounts.py --resume
 ```
 
 ## How It Works

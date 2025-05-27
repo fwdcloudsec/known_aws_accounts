@@ -42,7 +42,7 @@ async def check_account_reference(browser, url, account_id, retry_count=2, verbo
             # Navigate to the URL with a timeout
             response = await page.goto(url, {
                 'waitUntil': 'networkidle0', 
-                'timeout': 60000
+                'timeout': 30000
             })
 
             # Check if the page loaded successfully
@@ -166,8 +166,8 @@ async def validate_accounts(args):
         print("Make sure you have Chrome or Chromium installed.")
         return
 
-    # Lists to store referenced and unverified accounts
-    referenced_accounts = []
+    # Lists to store verified and unverified accounts
+    verified_accounts = []
     unverified_accounts = []
 
     # For resuming from a checkpoint
@@ -176,7 +176,7 @@ async def validate_accounts(args):
         try:
             # Load referenced accounts
             with open(args.output_file, 'r') as file:
-                referenced_accounts = yaml.safe_load(file) or []
+                verified_accounts = yaml.safe_load(file) or []
 
             # Load unverified accounts if the file exists
             if os.path.exists(args.unverified_file):
@@ -184,7 +184,7 @@ async def validate_accounts(args):
                     unverified_accounts = yaml.safe_load(file) or []
 
             # Find the index to resume from
-            processed_accounts = referenced_accounts + unverified_accounts
+            processed_accounts = verified_accounts + unverified_accounts
             if processed_accounts:
                 # Sort processed accounts by their position in the original accounts list
                 processed_indices = []
@@ -201,7 +201,7 @@ async def validate_accounts(args):
                     print(f"Resuming from account #{start_index} (after '{last_account_name}')")
         except Exception as e:
             print(f"Error loading checkpoint: {str(e)}")
-            referenced_accounts = []
+            verified_accounts = []
             unverified_accounts = []
 
     # Slice the accounts list based on limit and start_index
@@ -256,7 +256,7 @@ async def validate_accounts(args):
 
             if account_referenced:
                 # Add the account to the referenced accounts list
-                referenced_accounts.append(account)
+                verified_accounts.append(account)
                 if not args.quiet:
                     print(f"Added {name} to referenced accounts")
             else:
@@ -266,11 +266,11 @@ async def validate_accounts(args):
                     print(f"Account {name} is not referenced in any of its sources")
 
             # Save progress periodically
-            if args.checkpoint > 0 and len(referenced_accounts) % args.checkpoint == 0:
+            if args.checkpoint > 0 and len(verified_accounts) % args.checkpoint == 0:
                 try:
                     # Save referenced accounts
                     with open(args.output_file, 'w') as file:
-                        yaml.dump(referenced_accounts, file, default_flow_style=False)
+                        yaml.dump(verified_accounts, file, default_flow_style=False)
 
                     # Save unverified accounts
                     with open(args.unverified_file, 'w') as file:
@@ -289,9 +289,9 @@ async def validate_accounts(args):
     # Write the referenced accounts to output file
     try:
         with open(args.output_file, 'w') as file:
-            yaml.dump(referenced_accounts, file, default_flow_style=False)
+            yaml.dump(verified_accounts, file, default_flow_style=False)
 
-        print(f"Validation complete. {len(referenced_accounts)} accounts are still referenced.")
+        print(f"Validation complete. {len(verified_accounts)} accounts are still referenced.")
         print(f"Referenced accounts written to {args.output_file}")
     except Exception as e:
         print(f"Error writing to {args.output_file}: {str(e)}")
@@ -308,9 +308,9 @@ async def validate_accounts(args):
 
 def parse_arguments():
     """Parse command line arguments."""
-    parser = argparse.ArgumentParser(description='Validate AWS account references in source URLs.')
+    parser = argparse.ArgumentParser(description='Verify AWS account references in source URLs.')
     parser.add_argument('-i', '--input-file', default='accounts.yaml', help='Input YAML file (default: accounts.yaml)')
-    parser.add_argument('-o', '--output-file', default='referenced.yaml', help='Output YAML file for referenced accounts (default: referenced.yaml)')
+    parser.add_argument('-o', '--output-file', default='verified.yaml', help='Output YAML file for successfully verified accounts (default: verified.yaml)')
     parser.add_argument('-u', '--unverified-file', default='unverified.yaml', help='Output YAML file for unverified accounts (default: unverified.yaml)')
     parser.add_argument('-l', '--limit', type=int, default=0, help='Limit the number of accounts to check (default: 0 = all)')
     parser.add_argument('-q', '--quiet', action='store_true', help='Suppress detailed output')
