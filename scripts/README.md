@@ -1,6 +1,6 @@
-# AWS Account Verification Script
+# Supporting scripts
 
-This script verifies that each AWS account listed in the `accounts.yaml` file is still referenced on its source webpages.
+The scripts directory contains scripts useful for maintaining the known AWS accounts data.
 
 ## Requirements
 
@@ -16,9 +16,11 @@ This script verifies that each AWS account listed in the `accounts.yaml` file is
 pip install -r requirements.txt
 ```
 
-## Usage
+## Usage - AWS Account Verification
 
-Run the script with:
+The AWS account verification script verifies that each AWS account listed in the `accounts.yaml` file is still referenced on its source webpages.
+
+Run the AWS account verification script with:
 
 ```bash
 python verify_accounts.py
