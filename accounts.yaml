@@ -693,3 +693,6 @@
 - name: 'LaunchDarkly'
   source: ['https://launchdarkly.com/docs/home/flags/segment-config#expand-creating-the-aws-role']
   accounts: ['554582317989']
+- name: 'StackGuardian'
+  source: ['https://docs.stackguardian.io/docs/connectors/csp/aws']
+  accounts: ['476299211833','163602625436']
