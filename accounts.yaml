@@ -696,3 +696,6 @@
 - name: 'StackGuardian'
   source: ['https://docs.stackguardian.io/docs/connectors/csp/aws']
   accounts: ['476299211833','163602625436']
+- name: 'Red Hat'
+  source: ['https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-ocm-role']
+  accounts: ['710019948333']
