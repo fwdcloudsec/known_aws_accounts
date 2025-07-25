@@ -448,8 +448,8 @@
   source: ['https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['269135526815','085540434294','809336252980']
 - name: 'DoIt'
-  source: ['https://help.doit.com/docs/flexsave/aws/standalone/required-policies']
-  accounts: ['068664126052']
+  source: ['https://help.doit.com/docs/optimize/flexsave/aws']
+  accounts: ['561602220360', '017920819041', '279843869311']
 - name: 'ProsperOps'
   source: ['https://console.prosperops.com/onboarding']
   accounts: ['205499583182']
@@ -705,3 +705,6 @@
 - name: 'SendSafely'
   source: ['https://sendsafely.zendesk.com/hc/en-us/articles/360028308212-Configuring-your-own-S3-Bucket-for-use-with-SendSafely']
   accounts: ['371444783282']
+- name: 'Common Room'
+  source: ['https://www.commonroom.io/docs/signals/product-usage-integrations/s3/']
+  accounts: ['322919613312']
