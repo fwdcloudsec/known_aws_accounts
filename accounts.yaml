@@ -448,6 +448,10 @@
   source: ['https://github.com/drata/terraform-aws-drata-autopilot-role/blob/f774d423a62df3a3dd03008a68c3b3d70b95be33/variables.tf#L1-L5','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
   accounts: ['269135526815','085540434294','809336252980']
 - name: 'DoIt'
+  source: ['https://help.doit.com/docs/flexsave/aws/standalone/required-policies']
+  accounts: ['068664126052']
+  enabled: false
+- name: 'DoIt'
   source: ['https://help.doit.com/docs/optimize/flexsave/aws']
   accounts: ['561602220360', '017920819041', '279843869311']
 - name: 'ProsperOps'
