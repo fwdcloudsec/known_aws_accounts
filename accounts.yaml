@@ -113,8 +113,11 @@
   source: ['https://convox.com/docs/aws-integration']
   accounts: ['665986001363']
 - name: 'Spotinst'
-  source: ['https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually','https://docs.spot.io/eco/tutorials/eco-policy/create-eco-policy-with-cloudformation']
-  accounts: ['922761411349','884866656237', '627743545735']
+  source:
+    - 'https://docs.spot.io/connect-your-cloud-provider/first-account/aws-manually'
+    - 'https://docs.spot.io/eco/tutorials/eco-policy/create-eco-policy-with-cloudformation'
+    - 'https://s3.amazonaws.com/spotinst-public/assets/cloudformation/templates/onboarding/spotinst_aws_cfn_ca_credentials.template.json'
+  accounts: ['922761411349', '884866656237', '627743545735', '393649089167']
 - name: 'Redlock - PrismaCloud'
   source: ['https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin/connect-your-cloud-platform-to-prisma-cloud/onboard-aws/manually-set-up-prisma-cloud-role-for-aws', 'https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html']
   accounts: ['188619942792', '496947949261']
