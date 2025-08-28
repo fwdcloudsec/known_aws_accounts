@@ -715,3 +715,6 @@
 - name: 'Common Room'
   source: ['https://www.commonroom.io/docs/signals/product-usage-integrations/s3/']
   accounts: ['322919613312']
+- name: 'TigerData'
+  source: ['https://docs.tigerdata.com/migrate/latest/livesync-for-s3/']
+  accounts: ['142548018081']
