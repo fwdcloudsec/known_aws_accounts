@@ -721,3 +721,6 @@
 - name: 'RedisCloud'
   source: ['https://redis.io/kb/doc/1yfuezjxdv/migrating-from-elasticache-to-redis-cloud-via-s3-bucket']
   accounts: ['168085023892']
+- name: 'Rafay'
+  source: ['https://docs.rafay.co/learn/quickstart/som/eks/setup/']
+  accounts: ['781965151837']
