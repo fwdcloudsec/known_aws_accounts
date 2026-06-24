@@ -761,3 +761,6 @@
 - name: 'Tableau'
   source: ['https://help.salesforce.com/s/articleView?id=005232922&type=1','https://help.tableau.com/current/online/en-us/activity_log_setup.htm']
   accounts: ['005102551263','075540750887','112108976196','119877853097','337853574888','349070092441','623102672691','667498515984','675003682462','792479604904','892386869973','943538517075']
+- name: 'CloudFix'
+  source: ['https://support.cloudfix.com/article/129157-fix-cloudfix-auto-approval-access-change-manager']
+  accounts: ['061081614506']
