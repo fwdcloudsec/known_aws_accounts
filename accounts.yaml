@@ -208,9 +208,6 @@
   accounts: ['695990169366']
 - name: 'Axonius.com'
   accounts: ['802876684602', '817364327683', '405773942477']
-- name: 'Fugue'
-  source: ['https://docs.fugue.co/setup.html','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
-  accounts: ['370134896156', '944830124550','057172825058','810369035479']
 - name: 'CloudPhysics'
   source: ['https://www.cloudphysics.com/connectaws/']
   accounts: ['863002038009']
@@ -270,9 +267,10 @@
 - name: 'GitLab'
   source: ['https://docs.gitlab.com/ee/solutions/cloud/aws/gitlab_single_box_on_aws.html#official-gitlab-releases-as-amis']
   accounts: ['855262394183', '956491294349', '782774275127']
+# Fugue accounts are included here as it was acquired by Snyk in 2022
 - name: 'Snyk'
-  source: ['https://support.snyk.io/hc/en-us/articles/360004002418-AWS-Lambda-integration','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
-  accounts: ['198361731867','755778135062']
+  source: ['https://support.snyk.io/hc/en-us/articles/360004002418-AWS-Lambda-integration','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/', 'https://docs.fugue.co/setup.html','https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/']
+  accounts: ['198361731867','755778135062', '370134896156', '944830124550','057172825058','810369035479']
 - name: 'CloudCraft'
   accounts: ['968898580625']
 - name: 'JupiterOne'
