@@ -4,6 +4,10 @@ This repository contains known AWS account IDs (those used by vendors and AWS se
 
 The purpose of this is so when a trust relationship or CloudTrail events show an AWS account ID that is unknown to you, you can more quickly identify the purpose of that account. This is meant to be used with tools to remove the need for manual web searches.
 
+
+> [!NOTE]
+> This repository is an inventory of AWS accounts that can be attributed to specific vendors and AWS services, built by the community. This does not imply that these AWS accounts are necessarily secure. They may become compromised, used by an attacker to pivot from a compromised SaaS vendor, or acquired by another organization as part of an M&A.
+
 ## Contributing
 
 Account IDs included in this repository should be publicly documented. The reasons for this are 1) we want to ensure these account IDs are really for who they say they are 2) some companies may not want their account IDs mentioned publicly.
